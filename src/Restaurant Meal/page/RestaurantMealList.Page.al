@@ -1,22 +1,26 @@
 page 50104 "Restaurant Meal List"
 {
     ApplicationArea = All;
-    Caption = 'Restaurant Meal List';
+    Caption = 'Restaurant Meal';
     PageType = List;
     SourceTable = "Restaurant Meal";
     UsageCategory = Lists;
     CardPageID = "Restaurant Meal Card";
-    
+
     layout
     {
         area(content)
         {
             repeater(General)
             {
-                field(MealId; Rec.MealId)
+                field("No."; Rec."No.")
                 {
-                    ToolTip = 'Specifies the value of the MealId field.';
+                    ToolTip = 'Specifies the value of the No. field.';
                     NotBlank = true;
+                }
+                field(RestaurantCode; Rec.RestaurantCode)
+                {
+                    ToolTip = 'Specifies the value of the Restaurant Code field.';
                 }
                 field(Name; Rec.Name)
                 {
@@ -32,10 +36,7 @@ page 50104 "Restaurant Meal List"
                 {
                     ToolTip = 'Specifies the value of the MealType field.';
                 }
-                field(RestaurantId; Rec.RestaurantId)
-                {
-                    ToolTip = 'Specifies the value of the RestaurantId field.';
-                }
+
                 field(CalorieLevel; Rec.CalorieLevel)
                 {
                     ToolTip = 'Specifies the value of the CalorieLevel field.';

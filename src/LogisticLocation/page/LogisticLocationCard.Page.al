@@ -4,7 +4,7 @@ page 50101 "Logistic Location Card"
     Caption = 'Logistic Location Card';
     PageType = Card;
     SourceTable = "Logistic Location";
-    
+
     layout
     {
         area(content)
@@ -12,11 +12,14 @@ page 50101 "Logistic Location Card"
             group(General)
             {
                 Caption = 'General';
-                
+                field("No."; Rec."No.")
+                {
+                    ApplicationArea = All;
+                }
                 field(Name; Rec.Name)
                 {
-                    ShowMandatory=true;
-                    NotBlank=true;
+                    ShowMandatory = true;
+                    NotBlank = true;
                     ToolTip = 'Specifies the value of the Name field.';
                 }
             }

@@ -1,7 +1,7 @@
 page 50107 "Food Order Card"
 {
     ApplicationArea = All;
-    Caption = 'Food ORdeer';
+    Caption = 'Food Order';
     PageType = Card;
     SourceTable = "Food Order";
 
@@ -12,6 +12,10 @@ page 50107 "Food Order Card"
             group(General)
             {
                 Caption = 'General';
+                field("No."; Rec."No.")
+                {
+                    ToolTip = 'Specifies the value of the Food Order Id field.';
+                }
                 field(RestaurantId; Rec.RestaurantId)
                 {
                     ToolTip = 'Specifies the value of the RestaurantId field.';
@@ -44,10 +48,6 @@ page 50107 "Food Order Card"
                 {
                     ToolTip = 'Specifies the value of the DeliveryService field.';
                 }
-                field(FoodOrderId; Rec.FoodOrderId)
-                {
-                    ToolTip = 'Specifies the value of the FoodOrderId field.';
-                }
                 field(PaymMethod; Rec.PaymMethod)
                 {
                     ToolTip = 'Specifies the value of the PaymMethod field.';
@@ -63,6 +63,33 @@ page 50107 "Food Order Card"
                     ToolTip = 'Specifies the value of the TotalAmount field.';
                 }
             }
+        }
+    }
+    actions
+    {
+        Area(Processing)
+        {
+
+            action("Food Order Line")
+            {
+                Caption = 'Food Order Line';
+                ApplicationArea = all;
+                Image = Open;
+                Promoted = true;
+                PromotedCategory = Process;
+
+                trigger OnAction()
+                var
+                    FoodOrderLine: Record "Food Order Line";
+
+                begin
+                    FoodOrderLine.Init();
+                    FoodOrderLine.Validate("FoodOrderCode", Rec."No.");
+                    FoodOrderLine.Insert(true);
+                    Page.Run(Page::"Food Order Line Card", FoodOrderLine);
+                end;
+            }
+
         }
     }
 }

@@ -4,7 +4,7 @@ page 50109 "Food Order Line Card"
     Caption = 'Food Order Line Card';
     PageType = Card;
     SourceTable = "Food Order Line";
-    
+
     layout
     {
         area(content)
@@ -12,14 +12,19 @@ page 50109 "Food Order Line Card"
             group(General)
             {
                 Caption = 'General';
-                
-                field(CustAccount; Rec.CustAccount)
+                field("No."; Rec."No.")
                 {
-                    ToolTip = 'Specifies the value of the CustAccount field.';
+                    ToolTip = 'Specifies the value of the Food Order Line Code field.';
                 }
-                field(CustomerId; Rec.CustomerId)
+                field(FoodOrderCode; Rec.FoodOrderCode)
+                {
+                    ToolTip = 'Specifies the value of the FoodOrderId field.';
+                }
+                field("Customer Code."; Rec.CustomerCode)
                 {
                     ToolTip = 'Specifies the value of the Customer Id field.';
+                    // NotBlank = true;
+                    // ShowMandatory = true;
                 }
                 field(DiscountAmount; Rec.DiscountAmount)
                 {
@@ -29,21 +34,19 @@ page 50109 "Food Order Line Card"
                 {
                     ToolTip = 'Specifies the value of the FoodLineNum field.';
                 }
-                field(FoodOrderId; Rec.FoodOrderId)
-                {
-                    ToolTip = 'Specifies the value of the FoodOrderId field.';
-                }
-                field(FoodOrderLineId; Rec.FoodOrderLineId)
-                {
-                    ToolTip = 'Specifies the value of the FoodOrderLineId field.';
-                }
+
                 field(IsPaid; Rec.IsPaid)
                 {
                     ToolTip = 'Specifies the value of the IsPaid field.';
                 }
                 field(MealId; Rec.MealId)
                 {
+                    ShowMandatory = true;
                     ToolTip = 'Specifies the value of the MealId field.';
+                }
+                field(TotalLineAmount; Rec.TotalLineAmount)
+                {
+                    ToolTip = 'Specifies the value of the TotalLineAmount field.';
                 }
                 field(MealPrice; Rec.MealPrice)
                 {
@@ -56,10 +59,6 @@ page 50109 "Food Order Line Card"
                 field(Qty; Rec.Qty)
                 {
                     ToolTip = 'Specifies the value of the Qty field.';
-                }
-                field(TotalLineAmount; Rec.TotalLineAmount)
-                {
-                    ToolTip = 'Specifies the value of the TotalLineAmount field.';
                 }
             }
         }

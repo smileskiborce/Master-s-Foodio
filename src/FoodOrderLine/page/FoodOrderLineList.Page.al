@@ -1,7 +1,7 @@
 page 50108 "Food Order Line List"
 {
     ApplicationArea = All;
-    Caption = 'Food Order Line List';
+    Caption = 'Food Order Line';
     PageType = List;
     SourceTable = "Food Order Line";
     UsageCategory = Lists;
@@ -13,13 +13,17 @@ page 50108 "Food Order Line List"
         {
             repeater(General)
             {
-                field(CustAccount; Rec.CustAccount)
+                field("No."; Rec."No.")
                 {
-                    ToolTip = 'Specifies the value of the CustAccount field.';
+                    ToolTip = 'Specifies the value of the Food Order Line code field.';
                 }
-                field(CustomerId; Rec.CustomerId)
+                field(FoodOrderCode; Rec.FoodOrderCode)
                 {
-                    ToolTip = 'Specifies the value of the Customer Id field.';
+                    ToolTip = 'Specifies the value of the FoodOrderId field.';
+                }
+                field(CustomerCode; Rec.CustomerCode)
+                {
+                    ToolTip = 'Specifies the value of the CustomerCode field.';
                 }
                 field(DiscountAmount; Rec.DiscountAmount)
                 {
@@ -28,14 +32,6 @@ page 50108 "Food Order Line List"
                 field(FoodLineNum; Rec.FoodLineNum)
                 {
                     ToolTip = 'Specifies the value of the FoodLineNum field.';
-                }
-                field(FoodOrderId; Rec.FoodOrderId)
-                {
-                    ToolTip = 'Specifies the value of the FoodOrderId field.';
-                }
-                field(FoodOrderLineId; Rec.FoodOrderLineId)
-                {
-                    ToolTip = 'Specifies the value of the FoodOrderLineId field.';
                 }
                 field(IsPaid; Rec.IsPaid)
                 {

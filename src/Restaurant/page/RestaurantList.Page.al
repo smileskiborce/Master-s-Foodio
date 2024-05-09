@@ -13,10 +13,9 @@ page 50102 "Restaurant List"
         {
             repeater(General)
             {
-                 field(RestaurantId; Rec.RestaurantId)
+                field("No."; Rec."No.")
                 {
-                    ToolTip = 'RestaurantId';
-                    NotBlank=true;
+                    ApplicationArea = All;
                 }
                 field(CuisineType; Rec.CuisineType)
                 {
@@ -28,8 +27,8 @@ page 50102 "Restaurant List"
                 }
                 field(Name; Rec.Name)
                 {
-                    ShowMandatory=true;
-                    NotBlank=true;
+                    ShowMandatory = true;
+                    NotBlank = true;
                     ToolTip = 'Specifies the value of the Name field.';
                 }
             }

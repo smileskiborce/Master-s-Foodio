@@ -4,7 +4,7 @@ page 50103 "Restaurant Card"
     Caption = 'Restaurant Card';
     PageType = Card;
     SourceTable = Restaurant;
-    
+
     layout
     {
         area(content)
@@ -12,10 +12,10 @@ page 50103 "Restaurant Card"
             group(General)
             {
                 Caption = 'General';
-                field(RestaurantId; Rec.RestaurantId)
+
+                field("No."; Rec."No.")
                 {
-                    ToolTip = 'RestaurantId';
-                    NotBlank=true;
+                    ApplicationArea = All;
                 }
                 field(CuisineType; Rec.CuisineType)
                 {
@@ -28,8 +28,8 @@ page 50103 "Restaurant Card"
                 field(Name; Rec.Name)
                 {
                     ToolTip = 'Specifies the value of the Name field.';
-                    ShowMandatory=true;
-                    NotBlank=true;
+                    ShowMandatory = true;
+                    NotBlank = true;
                 }
             }
         }

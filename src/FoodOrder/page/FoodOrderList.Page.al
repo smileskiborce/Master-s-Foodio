@@ -13,14 +13,13 @@ page 50106 "Food Order List"
         {
             repeater(General)
             {
+                field("No."; Rec."No.")
+                {
+                    ToolTip = 'Specifies the value of the Food Order Id field.';
+                }
                 field(RestaurantId; Rec.RestaurantId)
                 {
                     ToolTip = 'Specifies the value of the RestaurantId field.';
-                    ShowMandatory = true;
-                }
-                field(UserId; Rec.UserId)
-                {
-                    ToolTip = 'Specifies the value of the UserId field.';
                     ShowMandatory = true;
                 }
                 field(OrderingDate; Rec.OrderingDate)
@@ -44,10 +43,6 @@ page 50106 "Food Order List"
                 field(DeliveryService; Rec.DeliveryService)
                 {
                     ToolTip = 'Specifies the value of the DeliveryService field.';
-                }
-                field(FoodOrderId; Rec.FoodOrderId)
-                {
-                    ToolTip = 'Specifies the value of the FoodOrderId field.';
                 }
                 field(PaymMethod; Rec.PaymMethod)
                 {

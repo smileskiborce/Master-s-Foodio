@@ -13,10 +13,14 @@ page 50105 "Restaurant Meal Card"
             {
                 Caption = 'General';
 
-                field(MealId; Rec.MealId)
+                field("No."; Rec."No.")
                 {
-                    ToolTip = 'Specifies the value of the MealId field.';
+                    ToolTip = 'Specifies the value of the No. field.';
+                }
+                field(RestaurantCode; Rec.RestaurantCode)
+                {
                     NotBlank = true;
+                    ToolTip = 'Specifies the value of the RestaurantId field.';
                 }
                 field(Name; Rec.Name)
                 {
@@ -36,11 +40,7 @@ page 50105 "Restaurant Meal Card"
                     NotBlank = true;
                     ToolTip = 'Specifies the value of the Price field.';
                 }
-                field(RestaurantId; Rec.RestaurantId)
-                {
-                    NotBlank = true;
-                    ToolTip = 'Specifies the value of the RestaurantId field.';
-                }
+
             }
         }
     }
