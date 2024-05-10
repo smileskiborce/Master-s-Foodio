@@ -61,11 +61,5 @@ page 50106 "Food Order List"
             }
         }
     }
-    trigger OnOpenPage()
-    var
-        FoodOrderMgt: Codeunit "Food Order Line Mgt";
-    begin
-        FoodOrderMgt.loadAllOrdersAmount();
-    end;
 
 }

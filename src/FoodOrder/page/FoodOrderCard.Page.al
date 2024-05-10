@@ -100,14 +100,4 @@ page 50107 "Food Order Card"
             }
         }
     }
-
-
-
-    trigger OnOpenPage()
-    var
-        FoodOrderMgt: Codeunit "Food Order Line Mgt";
-    begin
-        FoodOrderMgt.setTotalAmountOrder(Rec."No.");
-    end;
-
 }

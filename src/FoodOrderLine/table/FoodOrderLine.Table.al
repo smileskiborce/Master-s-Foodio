@@ -44,15 +44,17 @@ table 50104 "Food Order Line"
             var
                 RestaurantMeal: Record "Restaurant Meal";
                 FoodOrder: Record "Food Order";
+                discount: Integer;
             begin
                 RestaurantMeal.Get(MealId);
                 MealName := RestaurantMeal.Name;
                 MealPrice := RestaurantMeal.Price;
                 FoodOrder.Get(FoodOrderCode);
+                Rec.DiscountAmount := FoodOrderMgt.checkDiscount(CustomerCode, "No.");
                 if qty <> 0 then
-                    TotalLineAmount := RestaurantMeal.Price * Qty
+                    TotalLineAmount := RestaurantMeal.Price * Qty * (1 - DiscountAmount / 100)
                 else
-                    TotalLineAmount := RestaurantMeal.Price;
+                    TotalLineAmount := RestaurantMeal.Price * (1 - DiscountAmount / 100);
                 FoodOrderMgt.setTotalAmountOrder(FoodOrder."No.");
                 FoodOrderMgt.checkIfOverpassMonthyLimit(TotalLineAmount, rec.CustomerCode);
 
@@ -69,9 +71,9 @@ table 50104 "Food Order Line"
                 FoodOrder.Get(FoodOrderCode);
                 RestaurantMeal.Get(MealId);
                 if qty <> 0 then
-                    TotalLineAmount := RestaurantMeal.Price * Qty
+                    TotalLineAmount := (RestaurantMeal.Price * Qty) * (1 - DiscountAmount / 100)
                 else
-                    TotalLineAmount := RestaurantMeal.Price;
+                    TotalLineAmount := RestaurantMeal.Price * (1 - DiscountAmount / 100);
                 FoodOrderMgt.setTotalAmountOrder(FoodOrder."No.");
                 FoodOrderMgt.checkIfOverpassMonthyLimit(TotalLineAmount, rec.CustomerCode);
             end;
@@ -85,11 +87,10 @@ table 50104 "Food Order Line"
                 Message('test');
             end;
         }
-        field(9; DiscountAmount; Decimal)
+        field(9; DiscountAmount; Integer)
         {
             Caption = 'DiscountAmount';
             Editable = false;
-            InitValue = 0;
         }
         field(10; TotalLineAmount; Decimal)
         {
