@@ -32,25 +32,49 @@ table 50104 "Food Order Line"
         field(4; FoodOrderCode; Code[20])
         {
             Caption = 'FoodOrderCode';
+            Editable = false;
             TableRelation = "Food Order";
         }
         field(5; MealId; Code[10])
         {
             Caption = 'MealId';
             TableRelation = "Restaurant Meal";
+
             trigger OnValidate()
             var
                 RestaurantMeal: Record "Restaurant Meal";
+                FoodOrder: Record "Food Order";
             begin
                 RestaurantMeal.Get(MealId);
+                MealName := RestaurantMeal.Name;
                 MealPrice := RestaurantMeal.Price;
-                if TotalLineAmount <> 0 then
-                    MealPrice := RestaurantMeal.Price * TotalLineAmount;
+                FoodOrder.Get(FoodOrderCode);
+                if qty <> 0 then
+                    TotalLineAmount := RestaurantMeal.Price * Qty
+                else
+                    TotalLineAmount := RestaurantMeal.Price;
+                FoodOrderMgt.setTotalAmountOrder(FoodOrder."No.");
+                FoodOrderMgt.checkIfOverpassMonthyLimit(TotalLineAmount, rec.CustomerCode);
+
             end;
         }
         field(6; Qty; Integer)
         {
             Caption = 'Qty';
+            trigger OnValidate()
+            var
+                RestaurantMeal: Record "Restaurant Meal";
+                FoodOrder: Record "Food Order";
+            begin
+                FoodOrder.Get(FoodOrderCode);
+                RestaurantMeal.Get(MealId);
+                if qty <> 0 then
+                    TotalLineAmount := RestaurantMeal.Price * Qty
+                else
+                    TotalLineAmount := RestaurantMeal.Price;
+                FoodOrderMgt.setTotalAmountOrder(FoodOrder."No.");
+                FoodOrderMgt.checkIfOverpassMonthyLimit(TotalLineAmount, rec.CustomerCode);
+            end;
         }
         field(7; MealPrice; Decimal)
         {
@@ -67,17 +91,10 @@ table 50104 "Food Order Line"
             Editable = false;
             InitValue = 0;
         }
-        field(10; TotalLineAmount; Integer)
+        field(10; TotalLineAmount; Decimal)
         {
+            Editable = false;
             Caption = 'TotalLineAmount';
-            trigger OnValidate()
-            var
-                RestaurantMeal: Record "Restaurant Meal";
-            begin
-                RestaurantMeal.Get(MealId);
-                MealPrice := RestaurantMeal.Price * TotalLineAmount;
-            end;
-
         }
         field(11; PaidAmount; Decimal)
         {
@@ -91,12 +108,29 @@ table 50104 "Food Order Line"
         {
             Caption = 'Customer Id';
             TableRelation = Customer;
+            trigger OnValidate()
+            var
+                Customer: Record Customer;
+            begin
+                Customer.Get(Rec.CustomerCode);
+                CustomerName := Customer.Name;
+            end;
         }
         field(14; "No. Series"; Code[20])
         {
             Caption = 'No. Series';
             Editable = false;
             TableRelation = "No. Series";
+        }
+        field(15; "CustomerName"; Text[100])
+        {
+            Caption = 'Customer name';
+            Editable = false;
+        }
+        field(16; "MealName"; Text[100])
+        {
+            Editable = false;
+            Caption = 'Meal name';
         }
     }
     keys
@@ -119,4 +153,5 @@ table 50104 "Food Order Line"
     var
         SalesSetup: Record "Sales & Receivables Setup";
         NoSeriesMgt: Codeunit NoSeriesManagement;
+        FoodOrderMgt: Codeunit "Food Order Line Mgt";
 }

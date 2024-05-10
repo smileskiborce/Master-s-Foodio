@@ -26,23 +26,23 @@ page 50107 "Food Order Card"
                     ToolTip = 'Specifies the value of the UserId field.';
                     ShowMandatory = true;
                 }
-                field(OrderingDate; Rec.OrderingDate)
-                {
-                    ToolTip = 'Specifies the value of the OrderingDate field.';
-                    ShowMandatory = true;
-                }
                 field(DeliveryAddress; Rec.DeliveryAddress)
                 {
                     ToolTip = 'Specifies the value of the DeliveryAddress field.';
                     ShowMandatory = true;
                 }
+                field(DeliveryExpenses; Rec.DeliveryExpenses)
+                {
+                    ToolTip = 'Specifies the value of the DeliveryExpenses field.';
+                }
                 field(DeliveryAmount; Rec.DeliveryAmount)
                 {
                     ToolTip = 'Specifies the value of the DeliveryAmount field.';
                 }
-                field(DeliveryExpenses; Rec.DeliveryExpenses)
+                field(OrderingDate; Rec.OrderingDate)
                 {
-                    ToolTip = 'Specifies the value of the DeliveryExpenses field.';
+                    ToolTip = 'Specifies the value of the OrderingDate field.';
+                    ShowMandatory = true;
                 }
                 field(DeliveryService; Rec.DeliveryService)
                 {
@@ -65,14 +65,23 @@ page 50107 "Food Order Card"
             }
         }
     }
+
     actions
     {
-        Area(Processing)
+
+        Area(Navigation)
         {
 
+            action("View Food Order list")
+            {
+                Caption = 'See Order Line';
+                ApplicationArea = All;
+                RunObject = page "Food Order Line List";
+                RunPageLink = "FoodOrderCode" = field("No.");
+            }
             action("Food Order Line")
             {
-                Caption = 'Food Order Line';
+                Caption = 'Order Line';
                 ApplicationArea = all;
                 Image = Open;
                 Promoted = true;
@@ -81,7 +90,7 @@ page 50107 "Food Order Card"
                 trigger OnAction()
                 var
                     FoodOrderLine: Record "Food Order Line";
-
+                    RestaurantMeal: Record "Restaurant Meal";
                 begin
                     FoodOrderLine.Init();
                     FoodOrderLine.Validate("FoodOrderCode", Rec."No.");
@@ -89,7 +98,16 @@ page 50107 "Food Order Card"
                     Page.Run(Page::"Food Order Line Card", FoodOrderLine);
                 end;
             }
-
         }
     }
+
+
+
+    trigger OnOpenPage()
+    var
+        FoodOrderMgt: Codeunit "Food Order Line Mgt";
+    begin
+        FoodOrderMgt.setTotalAmountOrder(Rec."No.");
+    end;
+
 }

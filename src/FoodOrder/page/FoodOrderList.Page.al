@@ -17,7 +17,7 @@ page 50106 "Food Order List"
                 {
                     ToolTip = 'Specifies the value of the Food Order Id field.';
                 }
-                field(RestaurantId; Rec.RestaurantId)
+                field(RestaurantName; Rec.RestaurantName)
                 {
                     ToolTip = 'Specifies the value of the RestaurantId field.';
                     ShowMandatory = true;
@@ -61,4 +61,11 @@ page 50106 "Food Order List"
             }
         }
     }
+    trigger OnOpenPage()
+    var
+        FoodOrderMgt: Codeunit "Food Order Line Mgt";
+    begin
+        FoodOrderMgt.loadAllOrdersAmount();
+    end;
+
 }

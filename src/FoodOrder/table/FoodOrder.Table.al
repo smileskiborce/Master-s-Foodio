@@ -26,6 +26,13 @@ table 50103 "Food Order"
         {
             Caption = 'RestaurantId';
             TableRelation = Restaurant;
+            trigger OnValidate()
+            var
+                Restaurant: Record Restaurant;
+            begin
+                Restaurant.Get(Rec.RestaurantId);
+                RestaurantName := Restaurant.Name;
+            end;
         }
         field(4; Status; Enum "Order Status")
         {
@@ -39,10 +46,15 @@ table 50103 "Food Order"
         field(6; TotalAmount; Decimal)
         {
             Caption = 'TotalAmount';
+            Editable = false;
         }
         field(7; DeliveryExpenses; Boolean)
         {
             Caption = 'DeliveryExpenses';
+            trigger OnValidate()
+            begin
+                FoodOrderMgt.setTotalAmountOrder(rec."No.");
+            end;
         }
         field(8; DeliveryService; Enum "Delivery Service")
         {
@@ -51,6 +63,11 @@ table 50103 "Food Order"
         field(9; DeliveryAmount; Decimal)
         {
             Caption = 'DeliveryAmount';
+            InitValue = 150;
+            trigger OnValidate()
+            begin
+                FoodOrderMgt.setTotalAmountOrder(rec."No.");
+            end;
         }
         field(10; DeliveryAddress; Text[100])
         {
@@ -66,6 +83,10 @@ table 50103 "Food Order"
             Caption = 'No. Series';
             Editable = false;
             TableRelation = "No. Series";
+        }
+        field(13; "RestaurantName"; Text[100])
+        {
+            Editable = false;
         }
     }
     keys
@@ -88,4 +109,6 @@ table 50103 "Food Order"
     var
         SalesSetup: Record "Sales & Receivables Setup";
         NoSeriesMgt: Codeunit NoSeriesManagement;
+        FoodOrderMgt: Codeunit "Food Order Line Mgt";
+
 }

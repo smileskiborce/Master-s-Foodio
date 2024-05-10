@@ -23,8 +23,12 @@ page 50109 "Food Order Line Card"
                 field("Customer Code."; Rec.CustomerCode)
                 {
                     ToolTip = 'Specifies the value of the Customer Id field.';
-                    // NotBlank = true;
-                    // ShowMandatory = true;
+                    NotBlank = true;
+                    ShowMandatory = true;
+                }
+                field("CustomerName"; Rec.CustomerName)
+                {
+                    ToolTip = 'Specifies the value of the CustomerName Id field.';
                 }
                 field(DiscountAmount; Rec.DiscountAmount)
                 {
@@ -44,22 +48,27 @@ page 50109 "Food Order Line Card"
                     ShowMandatory = true;
                     ToolTip = 'Specifies the value of the MealId field.';
                 }
-                field(TotalLineAmount; Rec.TotalLineAmount)
-                {
-                    ToolTip = 'Specifies the value of the TotalLineAmount field.';
-                }
                 field(MealPrice; Rec.MealPrice)
                 {
                     ToolTip = 'Specifies the value of the MealPrice field.';
                 }
-                field(PaidAmount; Rec.PaidAmount)
+                field(MealName; Rec.MealName)
                 {
-                    ToolTip = 'Specifies the value of the PaidAmount field.';
+                    ToolTip = 'Specifies the value of the MealName field.';
                 }
                 field(Qty; Rec.Qty)
                 {
                     ToolTip = 'Specifies the value of the Qty field.';
                 }
+                field(TotalLineAmount; Rec.TotalLineAmount)
+                {
+                    ToolTip = 'Specifies the value of the TotalLineAmount field.';
+                }
+                field(PaidAmount; Rec.PaidAmount)
+                {
+                    ToolTip = 'Specifies the value of the PaidAmount field.';
+                }
+
             }
         }
     }

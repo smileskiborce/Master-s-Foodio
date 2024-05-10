@@ -21,7 +21,24 @@ page 50108 "Food Order Line List"
                 {
                     ToolTip = 'Specifies the value of the FoodOrderId field.';
                 }
-                field(CustomerCode; Rec.CustomerCode)
+                field(MealName; Rec.MealName)
+                {
+                    ToolTip = 'Specifies the value of the MealName field.';
+                }
+                field(MealPrice; Rec.MealPrice)
+                {
+                    ToolTip = 'Specifies the value of the MealPrice field.';
+                }
+                field(Qty; Rec.Qty)
+                {
+                    ToolTip = 'Specifies the value of the Qty field.';
+                }
+
+                field(TotalLineAmount; Rec.TotalLineAmount)
+                {
+                    ToolTip = 'Specifies the value of the TotalLineAmount field.';
+                }
+                field(CustomerName; Rec.CustomerName)
                 {
                     ToolTip = 'Specifies the value of the CustomerCode field.';
                 }
@@ -37,25 +54,9 @@ page 50108 "Food Order Line List"
                 {
                     ToolTip = 'Specifies the value of the IsPaid field.';
                 }
-                field(MealId; Rec.MealId)
-                {
-                    ToolTip = 'Specifies the value of the MealId field.';
-                }
-                field(MealPrice; Rec.MealPrice)
-                {
-                    ToolTip = 'Specifies the value of the MealPrice field.';
-                }
                 field(PaidAmount; Rec.PaidAmount)
                 {
                     ToolTip = 'Specifies the value of the PaidAmount field.';
-                }
-                field(Qty; Rec.Qty)
-                {
-                    ToolTip = 'Specifies the value of the Qty field.';
-                }
-                field(TotalLineAmount; Rec.TotalLineAmount)
-                {
-                    ToolTip = 'Specifies the value of the TotalLineAmount field.';
                 }
             }
         }
