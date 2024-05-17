@@ -1,7 +1,7 @@
 enum 50100 "Restaurant Type"
 {
     Extensible = true;
-    
+
     value(0; Mediterranean)
     {
         Caption = 'Mediterranean';

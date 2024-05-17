@@ -1,13 +1,13 @@
 table 50104 "Food Order Line"
 {
-    Caption = 'Food Order Line';
+    Caption = 'Линија за нарачка на храна';
     DataClassification = ToBeClassified;
 
     fields
     {
         field(1; "No."; Code[20])
         {
-            Caption = 'Food Order Line Code';
+            Caption = 'No.';
             Editable = false;
 
             trigger OnValidate()
@@ -27,7 +27,8 @@ table 50104 "Food Order Line"
         }
         field(3; FoodLineNum; Integer)
         {
-            Caption = 'FoodLineNum';
+            Caption = 'Food Line Num';
+            Editable = false;
         }
         field(4; FoodOrderCode; Code[20])
         {
@@ -38,8 +39,8 @@ table 50104 "Food Order Line"
         field(5; MealId; Code[10])
         {
             Caption = 'MealId';
-            TableRelation = "Restaurant Meal";
-
+            ValidateTableRelation = true;
+            TableRelation = "Restaurant Meal"."No." where(RestaurantCode = field("Restaurant Code"));
             trigger OnValidate()
             var
                 RestaurantMeal: Record "Restaurant Meal";
@@ -50,19 +51,23 @@ table 50104 "Food Order Line"
                 MealName := RestaurantMeal.Name;
                 MealPrice := RestaurantMeal.Price;
                 FoodOrder.Get(FoodOrderCode);
-                Rec.DiscountAmount := FoodOrderMgt.checkDiscount(CustomerCode, "No.");
-                if qty <> 0 then
-                    TotalLineAmount := RestaurantMeal.Price * Qty * (1 - DiscountAmount / 100)
-                else
-                    TotalLineAmount := RestaurantMeal.Price * (1 - DiscountAmount / 100);
+
+
+                Rec.DiscountAmount := FoodOrderMgt.checkDiscount(CustomerCode, "No.", FoodOrder."No.");
+
+                TotalLineAmount := RestaurantMeal.Price * Qty * (1 - DiscountAmount / 100);
+
                 FoodOrderMgt.setTotalAmountOrder(FoodOrder."No.");
                 FoodOrderMgt.checkIfOverpassMonthyLimit(TotalLineAmount, rec.CustomerCode);
 
+                FoodOrderMgt.setOrderToPay(FoodOrderCode, rec."No.", CustomerCode, TotalLineAmount);
             end;
         }
         field(6; Qty; Integer)
         {
-            Caption = 'Qty';
+            Caption = 'Quantity';
+            InitValue = 1;
+            MinValue = 1;
             trigger OnValidate()
             var
                 RestaurantMeal: Record "Restaurant Meal";
@@ -70,49 +75,53 @@ table 50104 "Food Order Line"
             begin
                 FoodOrder.Get(FoodOrderCode);
                 RestaurantMeal.Get(MealId);
-                if qty <> 0 then
-                    TotalLineAmount := (RestaurantMeal.Price * Qty) * (1 - DiscountAmount / 100)
-                else
-                    TotalLineAmount := RestaurantMeal.Price * (1 - DiscountAmount / 100);
-                FoodOrderMgt.setTotalAmountOrder(FoodOrder."No.");
+                TotalLineAmount := RestaurantMeal.Price * Qty * (1 - DiscountAmount / 100);
+
+                FoodOrder.TotalAmount := FoodOrderMgt.setTotalAmountOrder(FoodOrder."No.") + Rec.TotalLineAmount;
+                FoodOrder.Modify();
                 FoodOrderMgt.checkIfOverpassMonthyLimit(TotalLineAmount, rec.CustomerCode);
+
+                FoodOrderMgt.setOrderToPay(FoodOrderCode, rec."No.", CustomerCode, TotalLineAmount);
             end;
         }
         field(7; MealPrice; Decimal)
         {
             Editable = false;
-            Caption = 'MealPrice';
-            trigger OnValidate()
-            begin
-                Message('test');
-            end;
+            Caption = 'Meal Price';
         }
         field(9; DiscountAmount; Integer)
         {
-            Caption = 'DiscountAmount';
+            Caption = 'Discount Amount';
             Editable = false;
         }
         field(10; TotalLineAmount; Decimal)
         {
             Editable = false;
-            Caption = 'TotalLineAmount';
+            Caption = 'Total Line Amount';
         }
         field(11; PaidAmount; Decimal)
         {
-            Caption = 'PaidAmount';
+            Caption = 'Paid Amount';
         }
         field(12; IsPaid; Boolean)
         {
-            Caption = 'IsPaid';
+            Caption = 'Is paid';
+            Editable = false;
         }
         field(13; CustomerCode; Code[20])
         {
-            Caption = 'Customer Id';
+            Caption = 'CustomerCode';
             TableRelation = Customer;
             trigger OnValidate()
             var
+                FoodOrderLines: Record "Food Order Line";
                 Customer: Record Customer;
+                FoodOrder: Record "Food Order";
             begin
+                FoodOrderLines.SetFilter(FoodOrderCode, Rec.FoodOrderCode);
+                rec.FoodLineNum := FoodOrderLines.Count;
+                FoodOrder.Get(FoodOrderCode);
+                "Restaurant Code" := FoodOrder.RestaurantId;
                 Customer.Get(Rec.CustomerCode);
                 CustomerName := Customer.Name;
             end;
@@ -125,13 +134,12 @@ table 50104 "Food Order Line"
         }
         field(15; "CustomerName"; Text[100])
         {
-            Caption = 'Customer name';
-            Editable = false;
+            Caption = 'Customer Name';
         }
         field(16; "MealName"; Text[100])
         {
             Editable = false;
-            Caption = 'Meal name';
+            Caption = 'Meal Name';
         }
     }
     keys
@@ -154,5 +162,15 @@ table 50104 "Food Order Line"
     var
         SalesSetup: Record "Sales & Receivables Setup";
         NoSeriesMgt: Codeunit NoSeriesManagement;
-        FoodOrderMgt: Codeunit "Food Order Line Mgt";
+        FoodOrderMgt: Codeunit "Food Order Line Mgtt";
+
+
+    trigger OnDelete()
+    var
+        PayOrder: Record "Pay Order";
+    begin
+        PayOrder.SetFilter(FoodOrderLineCode, Rec."No.");
+        PayOrder.DeleteAll();
+    end;
+
 }

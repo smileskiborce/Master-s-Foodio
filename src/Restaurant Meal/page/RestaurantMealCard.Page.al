@@ -1,7 +1,7 @@
 page 50105 "Restaurant Meal Card"
 {
     ApplicationArea = All;
-    Caption = 'Restaurant Meal Card';
+    Caption = 'Meal Card';
     PageType = Card;
     SourceTable = "Restaurant Meal";
 
@@ -22,9 +22,15 @@ page 50105 "Restaurant Meal Card"
                     NotBlank = true;
                     ToolTip = 'Specifies the value of the RestaurantId field.';
                 }
+                field(RestaurantName; Rec.RestaurantName)
+                {
+                    NotBlank = true;
+                    ToolTip = 'Specifies the value of the RestaurantName field.';
+                }
                 field(Name; Rec.Name)
                 {
                     NotBlank = true;
+                    ShowMandatory = true;
                     ToolTip = 'Specifies the value of the Name field.';
                 }
                 field(CalorieLevel; Rec.CalorieLevel)
@@ -38,6 +44,7 @@ page 50105 "Restaurant Meal Card"
                 field(Price; Rec.Price)
                 {
                     NotBlank = true;
+                    ShowMandatory = true;
                     ToolTip = 'Specifies the value of the Price field.';
                 }
 

@@ -20,11 +20,11 @@ table 50103 "Food Order"
         }
         field(2; OrderingDate; DateTime)
         {
-            Caption = 'OrderingDate';
+            Caption = 'Ordering Date';
         }
         field(3; RestaurantId; Code[10])
         {
-            Caption = 'RestaurantId';
+            Caption = 'Restaurant Id';
             TableRelation = Restaurant;
             trigger OnValidate()
             var
@@ -41,16 +41,16 @@ table 50103 "Food Order"
         }
         field(5; PaymMethod; Enum "Payment Type")
         {
-            Caption = 'PaymMethod';
+            Caption = 'Payment Method';
         }
         field(6; TotalAmount; Decimal)
         {
-            Caption = 'TotalAmount';
+            Caption = 'Total Amount';
             Editable = false;
         }
         field(7; DeliveryExpenses; Boolean)
         {
-            Caption = 'DeliveryExpenses';
+            Caption = 'Delivery Expenses';
             trigger OnValidate()
             begin
                 FoodOrderMgt.setTotalAmountOrder(rec."No.");
@@ -58,11 +58,11 @@ table 50103 "Food Order"
         }
         field(8; DeliveryService; Enum "Delivery Service")
         {
-            Caption = 'DeliveryService';
+            Caption = 'Delivery Service';
         }
         field(9; DeliveryAmount; Decimal)
         {
-            Caption = 'DeliveryAmount';
+            Caption = 'Delivery Amount';
             InitValue = 150;
             trigger OnValidate()
             begin
@@ -71,12 +71,19 @@ table 50103 "Food Order"
         }
         field(10; DeliveryAddress; Text[100])
         {
-            Caption = 'DeliveryAddress';
+            Caption = 'Delivery Address';
         }
         field(11; UserId; Text[100])
         {
             Caption = 'UserId';
             TableRelation = User;
+            trigger OnValidate()
+            var
+                User: Record User;
+            begin
+                User.Get(Rec.UserId);
+                UserName := User."Full Name";
+            end;
         }
         field(20; "No. Series"; Code[20])
         {
@@ -86,6 +93,12 @@ table 50103 "Food Order"
         }
         field(13; "RestaurantName"; Text[100])
         {
+            Caption = 'Restaurant Name';
+            Editable = false;
+        }
+        field(15; "UserName"; Text[100])
+        {
+            Caption = 'User Name';
             Editable = false;
         }
     }
@@ -96,6 +109,8 @@ table 50103 "Food Order"
             Clustered = true;
         }
     }
+
+
     trigger OnInsert()
     var
     begin
@@ -106,9 +121,19 @@ table 50103 "Food Order"
         end;
     end;
 
+
+    trigger OnDelete()
+    var
+        FoodOrderLine: Record "Food Order Line";
+    begin
+        FoodOrderLine.SetFilter("FoodOrderCode", Rec."No.");
+        FoodOrderLine.DeleteAll();
+    end;
+
+
     var
         SalesSetup: Record "Sales & Receivables Setup";
         NoSeriesMgt: Codeunit NoSeriesManagement;
-        FoodOrderMgt: Codeunit "Food Order Line Mgt";
+        FoodOrderMgt: Codeunit "Food Order Line Mgtt";
 
 }

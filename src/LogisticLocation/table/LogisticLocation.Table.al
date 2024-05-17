@@ -7,7 +7,7 @@ table 50101 "Logistic Location"
     {
         field(1; "No."; Code[20])
         {
-            Caption = 'Logistics Location Code';
+            Caption = 'No.';
             Editable = false;
 
             trigger OnValidate()

@@ -1,7 +1,7 @@
 enum 50106 "Order Status"
 {
     Extensible = true;
-    
+
     value(0; Open)
     {
         Caption = 'Open';

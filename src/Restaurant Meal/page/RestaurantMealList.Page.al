@@ -1,7 +1,7 @@
 page 50104 "Restaurant Meal List"
 {
     ApplicationArea = All;
-    Caption = 'Restaurant Meal';
+    Caption = 'Meal List';
     PageType = List;
     SourceTable = "Restaurant Meal";
     UsageCategory = Lists;
@@ -21,6 +21,10 @@ page 50104 "Restaurant Meal List"
                 field(RestaurantCode; Rec.RestaurantCode)
                 {
                     ToolTip = 'Specifies the value of the Restaurant Code field.';
+                }
+                field(RestaurantName; Rec.RestaurantName)
+                {
+                    ToolTip = 'Specifies the value of the Restaurant Name field.';
                 }
                 field(Name; Rec.Name)
                 {

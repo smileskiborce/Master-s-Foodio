@@ -4,7 +4,7 @@ enum 50105 "Payment Type"
 
     value(0; "Food card")
     {
-        Caption = 'Food card';
+        Caption = 'Card';
     }
     value(1; Cash)
     {

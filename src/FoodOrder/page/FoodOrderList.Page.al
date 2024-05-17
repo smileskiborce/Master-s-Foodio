@@ -1,7 +1,7 @@
 page 50106 "Food Order List"
 {
     ApplicationArea = All;
-    Caption = 'Food Order';
+    Caption = 'Food Order list';
     PageType = List;
     SourceTable = "Food Order";
     UsageCategory = Lists;
@@ -20,11 +20,6 @@ page 50106 "Food Order List"
                 field(RestaurantName; Rec.RestaurantName)
                 {
                     ToolTip = 'Specifies the value of the RestaurantId field.';
-                    ShowMandatory = true;
-                }
-                field(OrderingDate; Rec.OrderingDate)
-                {
-                    ToolTip = 'Specifies the value of the OrderingDate field.';
                     ShowMandatory = true;
                 }
                 field(DeliveryAddress; Rec.DeliveryAddress)
@@ -52,14 +47,27 @@ page 50106 "Food Order List"
                 field(Status; Rec.Status)
                 {
                     ToolTip = 'Specifies the value of the Status field.';
-                    ShowMandatory = true;
+                    StyleExpr = StyleExprTxt;
                 }
                 field(TotalAmount; Rec.TotalAmount)
                 {
                     ToolTip = 'Specifies the value of the TotalAmount field.';
                 }
+                field(OrderingDate; Rec.OrderingDate)
+                {
+                    ToolTip = 'Specifies the value of the OrderingDate field.';
+                    ShowMandatory = true;
+                }
             }
         }
     }
+    trigger OnAfterGetRecord()
+    var
+    begin
+        StyleExprTxt := ChangeColor.ChangeStatusColor(Rec);
+    end;
 
+    var
+        StyleExprTxt: Text[50];
+        ChangeColor: Codeunit "Change Color Satus";
 }

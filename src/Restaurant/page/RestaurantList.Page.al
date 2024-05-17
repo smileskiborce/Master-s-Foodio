@@ -25,11 +25,34 @@ page 50102 "Restaurant List"
                 {
                     ToolTip = 'Specifies the value of the Location field.';
                 }
+                field(Telephone; Rec.Telephone)
+                {
+                    ToolTip = 'Specifies the value of the Location field.';
+                }
                 field(Name; Rec.Name)
                 {
                     ShowMandatory = true;
                     NotBlank = true;
                     ToolTip = 'Specifies the value of the Name field.';
+                }
+            }
+        }
+    }
+    actions
+    {
+        Area(Reporting)
+        {
+            group(CustomerExpenses)
+            {
+                Caption = 'Customer expenses per restaurant';
+                action("CustomerExpensesRep")
+                {
+                    Caption = 'Customer expenses per restaurant';
+                    ApplicationArea = All;
+                    trigger OnAction()
+                    begin
+                        Report.Run(Report::CustomerExpensesPerRestaurant);
+                    end;
                 }
             }
         }

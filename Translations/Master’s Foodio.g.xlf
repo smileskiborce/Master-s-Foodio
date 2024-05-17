@@ -1,0 +1,1459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Master’s Foodio">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2752040040 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Food Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2752040040 - Field 329160606 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order - Field DeliveryAddress - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2752040040 - Field 1207637204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order - Field DeliveryAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2752040040 - Field 4148355313 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery Expenses</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order - Field DeliveryExpenses - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2752040040 - Field 139436963 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery Service</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order - Field DeliveryService - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2752040040 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2752040040 - Field 1351594800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Series</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order - Field No. Series - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2752040040 - Field 2903351526 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ordering Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order - Field OrderingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2752040040 - Field 4209550326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Method</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order - Field PaymMethod - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2752040040 - Field 679520316 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restaurant Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order - Field RestaurantId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2752040040 - Field 453842118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restaurant Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order - Field RestaurantName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2752040040 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2752040040 - Field 588318770 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order - Field TotalAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2752040040 - Field 3207102784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UserId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order - Field UserId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2752040040 - Field 3549826426 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order - Field UserName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 125704046 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Линија за нарачка на храна</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 125704046 - Field 2114396011 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CustomerCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order Line - Field CustomerCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 125704046 - Field 1881986821 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order Line - Field CustomerName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 125704046 - Field 3417937915 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Discount Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order Line - Field DiscountAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 125704046 - Field 2846531766 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Food Line Num</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order Line - Field FoodLineNum - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 125704046 - Field 325644107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FoodOrderCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order Line - Field FoodOrderCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 125704046 - Field 3212133970 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Is paid</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order Line - Field IsPaid - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 125704046 - Field 4024017828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MealId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order Line - Field MealId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 125704046 - Field 1338249438 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Meal Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order Line - Field MealName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 125704046 - Field 3096737700 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Meal Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order Line - Field MealPrice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 125704046 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order Line - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 125704046 - Field 1351594800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Series</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order Line - Field No. Series - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 125704046 - Field 441813308 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Paid Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order Line - Field PaidAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 125704046 - Field 1795468512 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order Line - Field Qty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 125704046 - Field 2893232508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restaurant Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order Line - Field Restaurant Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 125704046 - Field 1759491820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Line Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order Line - Field TotalLineAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1294342175 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LogisticLocation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Logistic Location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1294342175 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Logistic Location - Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1294342175 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Logistic Location - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1294342175 - Field 1351594800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Series</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Logistic Location - Field No. Series - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2670304842 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pay order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Pay Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2670304842 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Pay Order - Field Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2670304842 - Field 2114396011 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CustomerCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Pay Order - Field CustomerCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2670304842 - Field 1881986821 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CustomerName</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Pay Order - Field CustomerName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2670304842 - Field 325644107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FoodOrderCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Pay Order - Field FoodOrderCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2670304842 - Field 1540439057 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FoodOrderLineCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Pay Order - Field FoodOrderLineCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2670304842 - Field 3212133970 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IsPaid</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Pay Order - Field IsPaid - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2670304842 - Field 441813308 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PaidAmount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Pay Order - Field PaidAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1991561823 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restaurant list</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Restaurant - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1991561823 - Field 3364761338 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CuisineType</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Restaurant - Field CuisineType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1991561823 - Field 3891454143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Restaurant - Field Location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1991561823 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Restaurant - Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1991561823 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Restaurant - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1991561823 - Field 1351594800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Series</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Restaurant - Field No. Series - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1991561823 - Field 1252283704 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Telephone</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Restaurant - Field Telephone - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 95862364 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restaurant Meal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Restaurant Meal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 95862364 - Field 1407223011 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calorie level</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Restaurant Meal - Field CalorieLevel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 95862364 - Field 1083594383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Meal type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Restaurant Meal - Field MealType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 95862364 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Restaurant Meal - Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 95862364 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Restaurant Meal - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 95862364 - Field 1351594800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Series</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Restaurant Meal - Field No. Series - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 95862364 - Field 3635338911 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Цена</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Restaurant Meal - Field Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 95862364 - Field 2224496476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restaurant code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Restaurant Meal - Field RestaurantCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 95862364 - Field 453842118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restaurant name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Restaurant Meal - Field RestaurantName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 332895645 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restaurant Tree</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Restaurant Tree - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 332895645 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Restaurant Tree - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 332895645 - Field 2200046723 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Indentation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Restaurant Tree - Field Indentation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 332895645 - Field 2994363518 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Meal Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Restaurant Tree - Field Meal Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 332895645 - Field 3459409270 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Meal No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Restaurant Tree - Field Meal No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 332895645 - Field 141489924 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Meal Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Restaurant Tree - Field Meal Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 332895645 - Field 1122578150 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restaurant No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Restaurant Tree - Field Restaurant Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 332895645 - Field 4022261742 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restaurant No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Restaurant Tree - Field Restaurant No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 182588796 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Food Order card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 182588796 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Card - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 182588796 - Control 329160606 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the DeliveryAddress field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Card - Control DeliveryAddress - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 182588796 - Control 1207637204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the DeliveryAmount field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Card - Control DeliveryAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 182588796 - Control 4148355313 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the DeliveryExpenses field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Card - Control DeliveryExpenses - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 182588796 - Control 139436963 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the DeliveryService field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Card - Control DeliveryService - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 182588796 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Food Order Id field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Card - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 182588796 - Control 2903351526 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the OrderingDate field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Card - Control OrderingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 182588796 - Control 4209550326 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the PaymMethod field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Card - Control PaymMethod - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 182588796 - Control 679520316 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the RestaurantId field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Card - Control RestaurantId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 182588796 - Control 453842118 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the RestaurantName field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Card - Control RestaurantName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 182588796 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Status field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Card - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 182588796 - Control 588318770 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the TotalAmount field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Card - Control TotalAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 182588796 - Control 3207102784 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the UserId field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Card - Control UserId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 182588796 - Control 3549826426 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the User name field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Card - Control UserName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 182588796 - Action 125704046 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Food Order Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Card - Action Food Order Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 182588796 - Action 2363392618 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pay Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Card - Action Pay order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 182588796 - Action 2111135821 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Food Order list</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Card - Action View Food Order list - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3677859530 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Food order line card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3677859530 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Card - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3677859530 - Control 3655002329 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Customer Id field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Card - Control Customer Code. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3677859530 - Control 1881986821 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the CustomerName Id field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Card - Control CustomerName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3677859530 - Control 3417937915 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the DiscountAmount field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Card - Control DiscountAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3677859530 - Control 2846531766 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the FoodLineNum field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Card - Control FoodLineNum - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3677859530 - Control 325644107 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the FoodOrderId field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Card - Control FoodOrderCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3677859530 - Control 4024017828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the MealId field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Card - Control MealId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3677859530 - Control 1338249438 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the MealName field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Card - Control MealName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3677859530 - Control 3096737700 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the MealPrice field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Card - Control MealPrice - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3677859530 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Food Order Line Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Card - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3677859530 - Control 441813308 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the PaidAmount field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Card - Control PaidAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3677859530 - Control 1795468512 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Qty field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Card - Control Qty - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3677859530 - Control 1759491820 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the TotalLineAmount field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Card - Control TotalLineAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3083958828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Food Order Line List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3083958828 - Control 1881986821 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the CustomerCode field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line List - Control CustomerName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3083958828 - Control 3417937915 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the DiscountAmount field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line List - Control DiscountAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3083958828 - Control 2846531766 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the FoodLineNum field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line List - Control FoodLineNum - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3083958828 - Control 325644107 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the FoodOrderId field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line List - Control FoodOrderCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3083958828 - Control 3212133970 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the IsPaid field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line List - Control IsPaid - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3083958828 - Control 1338249438 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the MealName field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line List - Control MealName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3083958828 - Control 3096737700 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the MealPrice field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line List - Control MealPrice - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3083958828 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Food Order Line code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line List - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3083958828 - Control 441813308 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the PaidAmount field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line List - Control PaidAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3083958828 - Control 1795468512 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Qty field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line List - Control Qty - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3083958828 - Control 1759491820 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the TotalLineAmount field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line List - Control TotalLineAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3873563226 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Food Order list</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3873563226 - Control 329160606 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the DeliveryAddress field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order List - Control DeliveryAddress - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3873563226 - Control 1207637204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the DeliveryAmount field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order List - Control DeliveryAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3873563226 - Control 4148355313 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the DeliveryExpenses field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order List - Control DeliveryExpenses - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3873563226 - Control 139436963 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the DeliveryService field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order List - Control DeliveryService - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3873563226 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Food Order Id field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order List - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3873563226 - Control 2903351526 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the OrderingDate field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order List - Control OrderingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3873563226 - Control 4209550326 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the PaymMethod field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order List - Control PaymMethod - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3873563226 - Control 453842118 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the RestaurantId field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order List - Control RestaurantName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3873563226 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Status field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order List - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3873563226 - Control 588318770 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the TotalAmount field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order List - Control TotalAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1275522651 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Logistic Location Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Logistic Location Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1275522651 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Logistic Location Card - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1275522651 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Name field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Logistic Location Card - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1763209385 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Logistic Location List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Logistic Location List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1763209385 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Name field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Logistic Location List - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4198379662 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pay Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Pay Order Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4198379662 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Pay Order Card - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4198379662 - Control 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Amount field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Pay Order Card - Control Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4198379662 - Control 2114396011 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the CustumerCode field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Pay Order Card - Control CustomerCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4198379662 - Control 1881986821 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the CustomerName field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Pay Order Card - Control CustomerName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4198379662 - Control 325644107 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the FoodOrderCode field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Pay Order Card - Control FoodOrderCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4198379662 - Control 1540439057 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the FoodOrderLineCode field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Pay Order Card - Control FoodOrderLineCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4198379662 - Control 3212133970 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the IsPaid field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Pay Order Card - Control IsPaid - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4198379662 - Control 441813308 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the PaidAmount field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Pay Order Card - Control PaidAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4198379662 - Action 733747804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pay order line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Pay Order Card - Action Pay order line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 897719656 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pay order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Pay Order List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 897719656 - Control 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Amount field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Pay Order List - Control Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 897719656 - Control 1881986821 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the CustomerName field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Pay Order List - Control CustomerName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 897719656 - Control 325644107 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the FoodOrderCode field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Pay Order List - Control FoodOrderCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 897719656 - Control 1540439057 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the FoodOrderLineCode field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Pay Order List - Control FoodOrderLineCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 897719656 - Control 3212133970 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the IsPaid field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Pay Order List - Control IsPaid - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 307480987 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restaurant card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 307480987 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Card - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 307480987 - Control 3364761338 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the RestaurantType field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Card - Control CuisineType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 307480987 - Control 3891454143 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Location field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Card - Control Location - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 307480987 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Name field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Card - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 307480987 - Control 1252283704 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Telephone field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Card - Control Telephone - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 307480987 - Action 1775596926 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create restourant meal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Card - Action Create restourant meal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 307480987 - Action 1053109676 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View restourant meals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Card - Action View restourant meals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 136760553 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restaurant List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 136760553 - Control 3364761338 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the CuisineType field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant List - Control CuisineType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 136760553 - Control 3891454143 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Location field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant List - Control Location - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 136760553 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Name field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant List - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 136760553 - Control 1252283704 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Location field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant List - Control Telephone - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 136760553 - Action 1400689289 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer expenses per restaurant</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant List - Action CustomerExpenses - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 136760553 - Action 2262611772 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer expenses per restaurant</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant List - Action CustomerExpensesRep - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4128654312 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Meal Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Meal Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4128654312 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Meal Card - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4128654312 - Control 1407223011 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the CalorieLevel field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Meal Card - Control CalorieLevel - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4128654312 - Control 1083594383 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the MealType field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Meal Card - Control MealType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4128654312 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Name field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Meal Card - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4128654312 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Meal Card - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4128654312 - Control 3635338911 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Price field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Meal Card - Control Price - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4128654312 - Control 2224496476 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the RestaurantId field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Meal Card - Control RestaurantCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4128654312 - Control 453842118 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the RestaurantName field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Meal Card - Control RestaurantName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1610239342 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Meal List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Meal List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1610239342 - Control 1407223011 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the CalorieLevel field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Meal List - Control CalorieLevel - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1610239342 - Control 1083594383 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the MealType field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Meal List - Control MealType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1610239342 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Name field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Meal List - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1610239342 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Meal List - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1610239342 - Control 3635338911 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Price field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Meal List - Control Price - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1610239342 - Control 2224496476 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Restaurant Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Meal List - Control RestaurantCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1610239342 - Control 453842118 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Restaurant Name field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Meal List - Control RestaurantName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3892638639 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restaurant Tree Meals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Tree Meals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3892638639 - Control 2200046723 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Indentatiotreen field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Tree Meals - Control Indentation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3892638639 - Control 2994363518 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the MealName field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Tree Meals - Control Meal Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3892638639 - Control 3459409270 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Meal No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Tree Meals - Control Meal No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3892638639 - Control 141489924 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Meal Price field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Tree Meals - Control Meal Price - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3892638639 - Control 1122578150 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Restaurant Name field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Tree Meals - Control Restaurant Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3892638639 - Control 4022261742 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Restaurant No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant Tree Meals - Control Restaurant No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3389382181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restaurant Panel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RestaurantPanel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3389382181 - Action 642782499 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update Panel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RestaurantPanel - Action Update - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3389382181 - Action 642782499 - Method 1377591017 - NamedType 1005684385" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Panel updated</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RestaurantPanel - Action Update - Method OnAction - NamedType UpdatedLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 590386535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Expenses Per Restaurant</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CustomerExpensesPerRestaurant - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 590386535 - ReportLayout 1583084828 - Property 2166945456" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Ledger Entry Analysis RDL Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CustomerExpensesPerRestaurant - ReportLayout LayoutRDL - Property Summary</note>
+        </trans-unit>
+        <trans-unit id="Report 590386535 - ReportLayout 1583084828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LayoutRDL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CustomerExpensesPerRestaurant - ReportLayout LayoutRDL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 3168444338 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Адреса</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 2731911828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Адреса и контакт</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Address &amp; Contact - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 2306852000 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Адреса 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Address 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 2784646184 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Детали за адреса</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change AddressDetails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 25700210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Биланс</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Balance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 2178647059 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Салдо (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Balance (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 230205143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Преостанато салдо</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Balance Due (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 1219049572 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Салдо (LCY) Како продавач</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change BalanceAsVendor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 2726785886 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Основен календарски код</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Base Calendar Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 3543129988 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Блокиран</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Blocked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 474657049 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Користење на кредитен лимит</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change CalcCreditLimitLCYExpendedPct - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 714791889 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Град</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change City - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 4231739422 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Комбинирани пратки</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Combine Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 2593889414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Детали за контактирање</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change ContactDetails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 4144518489 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Контакт Име</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change ContactName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Control 4209475936 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Master Foodio</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Control Master - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Control 244411068 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Monthly Budget</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Control MonthlyBudget - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 2063456215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Копирај Продажба на Адреса. до Qte Од</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Copy Sell-to Addr. to Qte From - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 284764054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Код на земја/регион</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Country/Region Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 499448942 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Округ</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change County - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 3246865201 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Кредитен лимит (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Credit Limit (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 3522968116 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Кредитен лимит</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change CreditLimit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 410940989 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Група за објавување клиенти</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Customer Posting Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 2725149570 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Група за цени на клиенти</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Customer Price Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 3603371397 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Прилагоден календар</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Customized Calendar - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 3180412077 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Трошоци (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change CustSalesLCY - CustProfit - AdjmtCostLCY - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 1541011875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Е-пошта</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change E-Mail - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 3217411102 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Број на EORI</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change EORI Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 633819257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Генералниот автобус. Група за објавување</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Gen. Bus. Posting Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Општо</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 2909674232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Почетна страница</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Home Page - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 1450094168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Фактурирање</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Invoicing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Код на локација</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 1927147471 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Мобилен телефон бр.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change MobilePhoneNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Име</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Бр.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 966740350 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Код на услови за плаќање</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Payment Terms Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 1004196339 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Плаќања</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Payments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 3986423421 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Телефонски број.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Phone No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 3660300303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Поштенски код</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Post Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 622982646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Детали за објавување</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change PostingDetails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 303512405 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Цени и попусти</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change PricesandDiscounts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 825293260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Резервирано</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Reserve - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 3803959643 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Продажба оваа година</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Sales This Year - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 993414011 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Код од брод до</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Ship-to Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 3470333905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Начин на испорака</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Shipment Method - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 2205104606 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Код</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Shipment Method Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 3097346278 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Испорака</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Shipping - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 3744117490 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Совети за испорака</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Shipping Advice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 84074407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Статистика</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Statistics - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 613516469 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Вкупно должни пари</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change TotalMoneyOwed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 419845748 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Вкупна продажба - Фискална година</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change TotalSales2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 3838013656 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Користете GLN во електронски документи</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Use GLN in Electronic Document - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Change 617267791 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Регистрација за ДДВ бр.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change VAT Registration No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 58105211 - Action 2262611772 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Customer expenses per restaurant</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerListButtonExt - Action CustomerExpensesRep - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 75599158 - Control 2017019586 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
+          <source>Food Order Line Nos.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesReceivablesSetupPageExt - Control Food Order Line Nos. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 75599158 - Control 1895178356 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
+          <source>Food Order Nos.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesReceivablesSetupPageExt - Control Food Order Nos. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 75599158 - Control 1398035795 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
+          <source>Restaurant Meal Nos.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesReceivablesSetupPageExt - Control Logistic Location Nos. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 75599158 - Control 1835003040 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
+          <source>Restaurant Meal Nos.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesReceivablesSetupPageExt - Control Restaurant Meal Nos. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 75599158 - Control 1193113107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
+          <source>Restaurant Nos.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesReceivablesSetupPageExt - Control Restaurant Nos. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1713901351 - Field 244411068 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>MonthlyBudget</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field MonthlyBudget - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2760473785 - Field 2017019586 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Food Order Nos.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales &amp; Receivables Setup Ext - Field Food Order Line Nos. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2760473785 - Field 1895178356 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Food Order Nos.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales &amp; Receivables Setup Ext - Field Food Order Nos. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2760473785 - Field 1398035795 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Logistic Location Nos.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales &amp; Receivables Setup Ext - Field Logistic Location Nos. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2760473785 - Field 1835003040 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Restaurant Meal Nos.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales &amp; Receivables Setup Ext - Field Restaurant Meal Nos. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2760473785 - Field 1193113107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Restaurant Nos.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales &amp; Receivables Setup Ext - Field Restaurant Nos. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2711567539 - EnumValue 3133614795 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>High calorie</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Calorie Level - EnumValue High calorie - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2711567539 - EnumValue 3549884637 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Low calorie</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Calorie Level - EnumValue Low calorie - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2711567539 - EnumValue 84604854 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mid-calorie</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Calorie Level - EnumValue Mid-calorie - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3625323227 - EnumValue 3435489224 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Кликни јади</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Delivery Service - EnumValue Klikni Jadi - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3625323227 - EnumValue 4256358681 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Корпа</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Delivery Service - EnumValue Korpa - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3625323227 - EnumValue 1779660548 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One Stop Shop</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Delivery Service - EnumValue One Stop Shop - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3625323227 - EnumValue 3448339824 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Друго</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Delivery Service - EnumValue Other - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3625323227 - EnumValue 1329806376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Самиот ресторан</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Delivery Service - EnumValue Restaurant itself - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3212133970 - EnumValue 4111072187 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not Paid</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum IsPaid - EnumValue Not Paid - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3212133970 - EnumValue 789473408 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Paid</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum IsPaid - EnumValue Paid - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1997377839 - EnumValue 3977776329 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Breakfast</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Meal Type - EnumValue Breakfast - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1997377839 - EnumValue 132504127 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Burger</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Meal Type - EnumValue Burger - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1997377839 - EnumValue 1498794791 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Burrito</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Meal Type - EnumValue Burrito - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1997377839 - EnumValue 4022505790 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dessert</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Meal Type - EnumValue Dessert - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1997377839 - EnumValue 365617005 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Meat dish</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Meal Type - EnumValue Meat dish - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1997377839 - EnumValue 3448339824 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Other</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Meal Type - EnumValue Other - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1997377839 - EnumValue 3363328537 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pasta</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Meal Type - EnumValue Pasta - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1997377839 - EnumValue 1831826679 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pastry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Meal Type - EnumValue Pastry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1997377839 - EnumValue 3962703084 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pizza</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Meal Type - EnumValue Pizza - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1997377839 - EnumValue 2944630221 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salad</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Meal Type - EnumValue Salad - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1997377839 - EnumValue 1904375303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sandwich</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Meal Type - EnumValue Sandwich - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1997377839 - EnumValue 1121045775 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tortilla</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Meal Type - EnumValue Tortilla - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4145127342 - EnumValue 293070022 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finished</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Order Status - EnumValue Finished - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4145127342 - EnumValue 4173458854 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In progress</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Order Status - EnumValue In progress - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4145127342 - EnumValue 4259830144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Order Status - EnumValue Open - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 907492870 - EnumValue 229234099 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cash</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Payment Type - EnumValue Cash - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 907492870 - EnumValue 249660426 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Payment Type - EnumValue Food card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1091718087 - EnumValue 3204818666 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>American</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Restaurant Type - EnumValue American - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1091718087 - EnumValue 2379496232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Asian</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Restaurant Type - EnumValue Asian - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1091718087 - EnumValue 2811036061 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balkan</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Restaurant Type - EnumValue Balkan - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1091718087 - EnumValue 3431250135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Healthy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Restaurant Type - EnumValue Healthy - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1091718087 - EnumValue 2637099170 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Italian</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Restaurant Type - EnumValue Italian - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1091718087 - EnumValue 2823575955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mediterranean</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Restaurant Type - EnumValue Mediterranean - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1091718087 - EnumValue 486876487 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mexican</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Restaurant Type - EnumValue Mexican - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1091718087 - EnumValue 3448339824 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Other</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Restaurant Type - EnumValue Other - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1091718087 - EnumValue 2918174784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vegeterian</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Restaurant Type - EnumValue Vegeterian - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

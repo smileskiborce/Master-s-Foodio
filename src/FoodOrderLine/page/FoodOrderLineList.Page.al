@@ -1,7 +1,7 @@
 page 50108 "Food Order Line List"
 {
     ApplicationArea = All;
-    Caption = 'Food Order Line';
+    Caption = 'Food Order Line List';
     PageType = List;
     SourceTable = "Food Order Line";
     UsageCategory = Lists;
@@ -16,6 +16,10 @@ page 50108 "Food Order Line List"
                 field("No."; Rec."No.")
                 {
                     ToolTip = 'Specifies the value of the Food Order Line code field.';
+                }
+                field(IsPaid; Rec.IsPaid)
+                {
+                    ToolTip = 'Specifies the value of the IsPaid field.';
                 }
                 field(FoodOrderCode; Rec.FoodOrderCode)
                 {
@@ -49,10 +53,6 @@ page 50108 "Food Order Line List"
                 field(FoodLineNum; Rec.FoodLineNum)
                 {
                     ToolTip = 'Specifies the value of the FoodLineNum field.';
-                }
-                field(IsPaid; Rec.IsPaid)
-                {
-                    ToolTip = 'Specifies the value of the IsPaid field.';
                 }
                 field(PaidAmount; Rec.PaidAmount)
                 {

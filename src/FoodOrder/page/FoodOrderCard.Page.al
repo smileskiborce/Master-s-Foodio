@@ -1,7 +1,7 @@
 page 50107 "Food Order Card"
 {
     ApplicationArea = All;
-    Caption = 'Food Order';
+    Caption = 'Food Order card';
     PageType = Card;
     SourceTable = "Food Order";
 
@@ -21,10 +21,18 @@ page 50107 "Food Order Card"
                     ToolTip = 'Specifies the value of the RestaurantId field.';
                     ShowMandatory = true;
                 }
+                field(RestaurantName; Rec.RestaurantName)
+                {
+                    ToolTip = 'Specifies the value of the RestaurantName field.';
+                }
                 field(UserId; Rec.UserId)
                 {
                     ToolTip = 'Specifies the value of the UserId field.';
                     ShowMandatory = true;
+                }
+                field(UserName; Rec.UserName)
+                {
+                    ToolTip = 'Specifies the value of the User name field.';
                 }
                 field(DeliveryAddress; Rec.DeliveryAddress)
                 {
@@ -74,14 +82,14 @@ page 50107 "Food Order Card"
 
             action("View Food Order list")
             {
-                Caption = 'See Order Line';
+                Caption = 'View Food Order list';
                 ApplicationArea = All;
                 RunObject = page "Food Order Line List";
                 RunPageLink = "FoodOrderCode" = field("No.");
             }
             action("Food Order Line")
             {
-                Caption = 'Order Line';
+                Caption = 'Create Food Order Line';
                 ApplicationArea = all;
                 Image = Open;
                 Promoted = true;
@@ -97,6 +105,13 @@ page 50107 "Food Order Card"
                     FoodOrderLine.Insert(true);
                     Page.Run(Page::"Food Order Line Card", FoodOrderLine);
                 end;
+            }
+            action("Pay order")
+            {
+                Caption = 'Pay Order';
+                ApplicationArea = All;
+                RunObject = page "Pay Order List";
+                RunPageLink = FoodOrderCode = field("No.");
             }
         }
     }

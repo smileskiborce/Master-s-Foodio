@@ -1,7 +1,7 @@
 page 50109 "Food Order Line Card"
 {
     ApplicationArea = All;
-    Caption = 'Food Order Line Card';
+    Caption = 'Food order line card';
     PageType = Card;
     SourceTable = "Food Order Line";
 
@@ -37,11 +37,6 @@ page 50109 "Food Order Line Card"
                 field(FoodLineNum; Rec.FoodLineNum)
                 {
                     ToolTip = 'Specifies the value of the FoodLineNum field.';
-                }
-
-                field(IsPaid; Rec.IsPaid)
-                {
-                    ToolTip = 'Specifies the value of the IsPaid field.';
                 }
                 field(MealId; Rec.MealId)
                 {

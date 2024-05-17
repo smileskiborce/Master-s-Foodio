@@ -1,7 +1,7 @@
 page 50103 "Restaurant Card"
 {
     ApplicationArea = All;
-    Caption = 'Restaurant Card';
+    Caption = 'Restaurant card';
     PageType = Card;
     SourceTable = Restaurant;
 
@@ -25,12 +25,49 @@ page 50103 "Restaurant Card"
                 {
                     ToolTip = 'Specifies the value of the Location field.';
                 }
+                field(Telephone; Rec.Telephone)
+                {
+                    ToolTip = 'Specifies the value of the Telephone field.';
+                }
                 field(Name; Rec.Name)
                 {
                     ToolTip = 'Specifies the value of the Name field.';
                     ShowMandatory = true;
                     NotBlank = true;
                 }
+            }
+        }
+    }
+    actions
+    {
+
+        Area(Navigation)
+        {
+
+            action("View restourant meals")
+            {
+                Caption = 'View restourant meals';
+                ApplicationArea = All;
+                RunObject = page "Restaurant Meal List";
+                RunPageLink = RestaurantCode = field("No.");
+            }
+            action("Create restourant meal")
+            {
+                Caption = 'Create restourant meal';
+                ApplicationArea = all;
+                Image = Open;
+                Promoted = true;
+                PromotedCategory = Process;
+
+                trigger OnAction()
+                var
+                    RestourantMeal: Record "Restaurant Meal";
+                begin
+                    RestourantMeal.Init();
+                    RestourantMeal.Validate("RestaurantCode", Rec."No.");
+                    RestourantMeal.Insert(true);
+                    Page.Run(Page::"Restaurant Meal Card", RestourantMeal);
+                end;
             }
         }
     }

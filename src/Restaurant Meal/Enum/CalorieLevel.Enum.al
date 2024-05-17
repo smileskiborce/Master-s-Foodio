@@ -1,7 +1,7 @@
 enum 50101 "Calorie Level"
 {
     Extensible = true;
-    
+
     value(0; "Low calorie")
     {
         Caption = 'Low calorie';

@@ -1,6 +1,6 @@
 table 50100 "Restaurant"
 {
-    Caption = 'Restaurant';
+    Caption = 'Restaurant list';
     DataClassification = ToBeClassified;
 
     fields
@@ -26,7 +26,7 @@ table 50100 "Restaurant"
         }
         field(3; CuisineType; enum "Restaurant Type")
         {
-            Caption = 'Restaurant Type';
+            Caption = 'CuisineType';
         }
         field(4; Location; Code[20])
         {
@@ -35,7 +35,7 @@ table 50100 "Restaurant"
         }
         field(5; Telephone; Text[100])
         {
-            Caption = 'Location';
+            Caption = 'Telephone';
         }
         field(6; "No. Series"; Code[20])
         {
@@ -61,6 +61,16 @@ table 50100 "Restaurant"
             NoSeriesMgt.InitSeries(SalesSetup."Restaurant Nos.", xRec."No. Series", 0D, "No.", "No. Series");
         end;
     end;
+
+
+    trigger OnDelete()
+    var
+        RestaurantMeal: Record "Restaurant Meal";
+    begin
+        RestaurantMeal.SetFilter(RestaurantCode, Rec."No.");
+        RestaurantMeal.DeleteAll();
+    end;
+
 
     var
         SalesSetup: Record "Sales & Receivables Setup";

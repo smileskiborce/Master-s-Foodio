@@ -7,7 +7,7 @@ table 50102 "Restaurant Meal"
     {
         field(1; "No."; Code[10])
         {
-            Caption = 'Restaurant Meal Code';
+            Caption = 'No.';
             Editable = false;
 
             trigger OnValidate()
@@ -25,22 +25,36 @@ table 50102 "Restaurant Meal"
         }
         field(3; RestaurantCode; Code[10])
         {
-            Caption = 'Restaurant Code';
+            Caption = 'Restaurant code';
             TableRelation = Restaurant;
+            Editable = false;
+            trigger OnValidate()
+            var
+                Restaurant: Record Restaurant;
+            begin
+                Restaurant.Get(Rec.RestaurantCode);
+                RestaurantName := Restaurant.Name;
+            end;
         }
-        field(4; MealType; Enum "Meal Type")
+        field(4; RestaurantName; Text[100])
         {
-            Caption = 'Meal Type';
+            Caption = 'Restaurant name';
+            TableRelation = Restaurant;
+            Editable = false;
         }
-        field(5; Price; Decimal)
+        field(5; MealType; Enum "Meal Type")
         {
-            Caption = 'Price';
+            Caption = 'Meal type';
         }
-        field(6; CalorieLevel; Enum "Calorie Level")
+        field(6; Price; Decimal)
         {
-            Caption = 'Calorie Level';
+            Caption = 'Цена';
         }
-        field(7; "No. Series"; Code[20])
+        field(7; CalorieLevel; Enum "Calorie Level")
+        {
+            Caption = 'Calorie level';
+        }
+        field(8; "No. Series"; Code[20])
         {
             Caption = 'No. Series';
             Editable = false;
