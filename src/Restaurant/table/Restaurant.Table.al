@@ -66,7 +66,24 @@ table 50100 "Restaurant"
     trigger OnDelete()
     var
         RestaurantMeal: Record "Restaurant Meal";
+        deletable: Boolean;
+        FoodOrder: Record "Food Order";
     begin
+        deletable := false;
+        FoodOrder.SetFilter(RestaurantId, Rec."No.");
+
+        if FoodOrder.FindSet() then begin
+            repeat
+                if FoodOrder.Status = FoodOrder.Status::"In progress" then
+                    deletable := true
+            until FoodOrder.Next() = 0
+        end;
+
+        if deletable then
+            ERROR('The restaurant %1 cannot be deleted since there is at least one in progress order related to it', rec."No.");
+
+
+
         RestaurantMeal.SetFilter(RestaurantCode, Rec."No.");
         RestaurantMeal.DeleteAll();
     end;

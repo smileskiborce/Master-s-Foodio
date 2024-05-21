@@ -51,4 +51,9 @@ page 50105 "Restaurant Meal Card"
             }
         }
     }
+
+    trigger OnQueryClosePage(CloseAction: Action): Boolean
+    begin
+        Rec.TestField(Name);
+    end;
 }

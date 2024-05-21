@@ -71,4 +71,11 @@ page 50103 "Restaurant Card"
             }
         }
     }
+
+
+    trigger OnQueryClosePage(CloseAction: Action): Boolean
+    begin
+        Rec.TestField(Location);
+        Rec.TestField(Name);
+    end;
 }

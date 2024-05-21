@@ -52,8 +52,11 @@ table 50103 "Food Order"
         {
             Caption = 'Delivery Expenses';
             trigger OnValidate()
+
             begin
-                FoodOrderMgt.setTotalAmountOrder(rec."No.");
+                TotalAmount := FoodOrderMgt.addExpensesToTotal(Rec);
+
+                FoodOrderMgt.addExpensesAmountToPay(Rec);
             end;
         }
         field(8; DeliveryService; Enum "Delivery Service")
@@ -66,7 +69,9 @@ table 50103 "Food Order"
             InitValue = 150;
             trigger OnValidate()
             begin
-                FoodOrderMgt.setTotalAmountOrder(rec."No.");
+                TotalAmount := FoodOrderMgt.addExpensesToTotal(Rec);
+
+                FoodOrderMgt.addExpensesAmountToPay(Rec);
             end;
         }
         field(10; DeliveryAddress; Text[100])
@@ -125,8 +130,11 @@ table 50103 "Food Order"
     trigger OnDelete()
     var
         FoodOrderLine: Record "Food Order Line";
+        PayOrder: Record "Pay Order";
     begin
         FoodOrderLine.SetFilter("FoodOrderCode", Rec."No.");
+        PayOrder.SetFilter(FoodOrderCode, rec."No.");
+        PayOrder.DeleteAll();
         FoodOrderLine.DeleteAll();
     end;
 
@@ -134,6 +142,7 @@ table 50103 "Food Order"
     var
         SalesSetup: Record "Sales & Receivables Setup";
         NoSeriesMgt: Codeunit NoSeriesManagement;
-        FoodOrderMgt: Codeunit "Food Order Line Mgtt";
+        FoodOrderLineMgt: Codeunit "Food Order Line Mgtt";
+        FoodOrderMgt: Codeunit "Food Order";
 
 }

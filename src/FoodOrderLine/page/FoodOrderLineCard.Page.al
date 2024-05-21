@@ -40,6 +40,7 @@ page 50109 "Food Order Line Card"
                 }
                 field(MealId; Rec.MealId)
                 {
+                    NotBlank = true;
                     ShowMandatory = true;
                     ToolTip = 'Specifies the value of the MealId field.';
                 }
@@ -53,6 +54,8 @@ page 50109 "Food Order Line Card"
                 }
                 field(Qty; Rec.Qty)
                 {
+                    ShowMandatory = true;
+                    NotBlank = true;
                     ToolTip = 'Specifies the value of the Qty field.';
                 }
                 field(TotalLineAmount; Rec.TotalLineAmount)
@@ -67,4 +70,8 @@ page 50109 "Food Order Line Card"
             }
         }
     }
+    trigger OnQueryClosePage(CloseAction: Action): Boolean
+    begin
+        Rec.TestField(qty);
+    end;
 }

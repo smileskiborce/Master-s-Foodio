@@ -17,6 +17,12 @@ page 50102 "Restaurant List"
                 {
                     ApplicationArea = All;
                 }
+                field(Name; Rec.Name)
+                {
+                    ShowMandatory = true;
+                    NotBlank = true;
+                    ToolTip = 'Specifies the value of the Name field.';
+                }
                 field(CuisineType; Rec.CuisineType)
                 {
                     ToolTip = 'Specifies the value of the CuisineType field.';
@@ -29,31 +35,18 @@ page 50102 "Restaurant List"
                 {
                     ToolTip = 'Specifies the value of the Location field.';
                 }
-                field(Name; Rec.Name)
-                {
-                    ShowMandatory = true;
-                    NotBlank = true;
-                    ToolTip = 'Specifies the value of the Name field.';
-                }
             }
         }
     }
     actions
     {
-        Area(Reporting)
+        Area(Navigation)
         {
-            group(CustomerExpenses)
+            action("View restourant meals")
             {
-                Caption = 'Customer expenses per restaurant';
-                action("CustomerExpensesRep")
-                {
-                    Caption = 'Customer expenses per restaurant';
-                    ApplicationArea = All;
-                    trigger OnAction()
-                    begin
-                        Report.Run(Report::CustomerExpensesPerRestaurant);
-                    end;
-                }
+                Caption = 'View restourant tree meals';
+                ApplicationArea = All;
+                RunObject = page "Restaurant Tree Meals";
             }
         }
     }

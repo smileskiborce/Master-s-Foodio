@@ -213,6 +213,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Pay Order - Field IsPaid - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2670304842 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Pay Order - Field No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2670304842 - Field 441813308 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>PaidAmount</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -783,15 +788,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant List - Control Telephone - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 136760553 - Action 1400689289 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Customer expenses per restaurant</source>
+        <trans-unit id="Page 136760553 - Action 1053109676 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View restourant tree meals</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant List - Action CustomerExpenses - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 136760553 - Action 2262611772 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Customer expenses per restaurant</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant List - Action CustomerExpensesRep - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Restaurant List - Action View restourant meals - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4128654312 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Meal Card</source>
@@ -1023,6 +1023,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Control Master - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Control 2525682978 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Minimal Limit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Control MinimalLimit - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3086352627 - Control 244411068 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>Monthly Budget</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1242,6 +1247,11 @@
           <source>Restaurant Nos.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesReceivablesSetupPageExt - Control Restaurant Nos. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1713901351 - Field 2525682978 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>MonthlyBudget</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field MinimalLimit - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1713901351 - Field 244411068 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
           <source>MonthlyBudget</source>

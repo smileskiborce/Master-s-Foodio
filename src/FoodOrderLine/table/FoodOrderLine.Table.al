@@ -39,6 +39,7 @@ table 50104 "Food Order Line"
         field(5; MealId; Code[10])
         {
             Caption = 'MealId';
+            NotBlank = true;
             ValidateTableRelation = true;
             TableRelation = "Restaurant Meal"."No." where(RestaurantCode = field("Restaurant Code"));
             trigger OnValidate()
@@ -53,20 +54,21 @@ table 50104 "Food Order Line"
                 FoodOrder.Get(FoodOrderCode);
 
 
-                Rec.DiscountAmount := FoodOrderMgt.checkDiscount(CustomerCode, "No.", FoodOrder."No.");
+                Rec.DiscountAmount := FoodOrderLineMgt.checkDiscount(CustomerCode, "No.", FoodOrder."No.");
 
                 TotalLineAmount := RestaurantMeal.Price * Qty * (1 - DiscountAmount / 100);
 
-                FoodOrderMgt.setTotalAmountOrder(FoodOrder."No.");
-                FoodOrderMgt.checkIfOverpassMonthyLimit(TotalLineAmount, rec.CustomerCode);
+                FoodOrder.TotalAmount := FoodOrderLineMgt.addToTotal(FoodOrder, Rec);
 
-                FoodOrderMgt.setOrderToPay(FoodOrderCode, rec."No.", CustomerCode, TotalLineAmount);
+                FoodOrderLineMgt.checkIfOverpassMonthyLimit(TotalLineAmount, rec.CustomerCode);
+
+                FoodOrderLineMgt.setOrderToPay(FoodOrderCode, rec."No.", CustomerCode, TotalLineAmount);
             end;
         }
         field(6; Qty; Integer)
         {
             Caption = 'Quantity';
-            InitValue = 1;
+
             MinValue = 1;
             trigger OnValidate()
             var
@@ -77,11 +79,12 @@ table 50104 "Food Order Line"
                 RestaurantMeal.Get(MealId);
                 TotalLineAmount := RestaurantMeal.Price * Qty * (1 - DiscountAmount / 100);
 
-                FoodOrder.TotalAmount := FoodOrderMgt.setTotalAmountOrder(FoodOrder."No.") + Rec.TotalLineAmount;
-                FoodOrder.Modify();
-                FoodOrderMgt.checkIfOverpassMonthyLimit(TotalLineAmount, rec.CustomerCode);
+                FoodOrder.TotalAmount := FoodOrderLineMgt.addToTotal(FoodOrder, Rec);
 
-                FoodOrderMgt.setOrderToPay(FoodOrderCode, rec."No.", CustomerCode, TotalLineAmount);
+                FoodOrder.Modify();
+                FoodOrderLineMgt.checkIfOverpassMonthyLimit(TotalLineAmount, rec.CustomerCode);
+
+                FoodOrderLineMgt.setOrderToPay(FoodOrderCode, rec."No.", CustomerCode, TotalLineAmount);
             end;
         }
         field(7; MealPrice; Decimal)
@@ -162,8 +165,8 @@ table 50104 "Food Order Line"
     var
         SalesSetup: Record "Sales & Receivables Setup";
         NoSeriesMgt: Codeunit NoSeriesManagement;
-        FoodOrderMgt: Codeunit "Food Order Line Mgtt";
-
+        FoodOrderLineMgt: Codeunit "Food Order Line Mgtt";
+        FoodOrderMgt: Codeunit "Food Order";
 
     trigger OnDelete()
     var

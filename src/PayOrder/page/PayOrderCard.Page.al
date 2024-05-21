@@ -32,6 +32,7 @@ page 50113 "Pay Order Card"
                 field(IsPaid; Rec.IsPaid)
                 {
                     ToolTip = 'Specifies the value of the IsPaid field.';
+                    StyleExpr = StyleExprTxt;
                 }
                 field(Amount; Rec.Amount)
                 {
@@ -60,6 +61,7 @@ page 50113 "Pay Order Card"
                 trigger OnAction()
                 var
                     FoodOrder: Record "Food Order";
+                    FoodOrderLine: Record "Food Order Line";
                     PayOrder: Record "Pay Order";
                     isPaidEveryLine: Boolean;
                 begin
@@ -86,4 +88,13 @@ page 50113 "Pay Order Card"
             }
         }
     }
+    trigger OnAfterGetRecord()
+    var
+    begin
+        StyleExprTxt := ChangeColor.ChangeStatusColor(Rec);
+    end;
+
+    var
+        StyleExprTxt: Text[50];
+        ChangeColor: Codeunit "PayOrderMgt";
 }

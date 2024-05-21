@@ -64,7 +64,7 @@ page 50107 "Food Order Card"
                 field(Status; Rec.Status)
                 {
                     ToolTip = 'Specifies the value of the Status field.';
-                    ShowMandatory = true;
+                    StyleExpr = StyleExprTxt;
                 }
                 field(TotalAmount; Rec.TotalAmount)
                 {
@@ -115,4 +115,22 @@ page 50107 "Food Order Card"
             }
         }
     }
+    trigger OnAfterGetRecord()
+    var
+    begin
+        StyleExprTxt := ChangeColor.ChangeStatusColor(Rec);
+    end;
+
+    var
+        StyleExprTxt: Text[50];
+        ChangeColor: Codeunit "Food Order";
+
+
+    trigger OnQueryClosePage(CloseAction: Action): Boolean
+    begin
+        Rec.TestField(RestaurantId);
+        Rec.TestField(UserId);
+        Rec.TestField(DeliveryAddress);
+        Rec.TestField(OrderingDate);
+    end;
 }

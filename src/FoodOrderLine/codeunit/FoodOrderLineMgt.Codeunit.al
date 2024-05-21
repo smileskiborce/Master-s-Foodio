@@ -2,19 +2,13 @@ codeunit 50105 "Food Order Line Mgtt"
 {
     TableNo = "Food Order Line";
 
-    procedure setTotalAmountOrder(var FoodOrderCode: Code[20]) totalAmount: Decimal
+    procedure addToTotal(var FoodOrder: Record "Food Order"; var FoodOrderLine: Record "Food Order Line") totalAmount: Decimal
     var
         FoodOrderLines: Record "Food Order Line";
-        FoodOrder: Record "Food Order";
     begin
-        FoodOrder.Get(FoodOrderCode);
+
         FoodOrderLines.SetFilter(FoodOrderCode, FoodOrder."No.");
-        if FoodOrderLines.FindSet() then
-            repeat
-                totalAmount += FoodOrderLines.TotalLineAmount;
-            until FoodOrderLines.Next() = 0;
-        if FoodOrder.DeliveryExpenses then
-            totalAmount += FoodOrder.DeliveryAmount;
+        totalAmount += FoodOrder.TotalAmount + FoodOrderLine.TotalLineAmount;
         exit(totalAmount);
     end;
 
@@ -26,8 +20,8 @@ codeunit 50105 "Food Order Line Mgtt"
     begin
         Customer.get(CustomerCode);
 
-        if Customer.MonthlyBudget < totalLineAmount then
-            Message('Customer  %1, monthly budget of %2, is overpasse, do you like to continue?', Customer.Name, Customer.MonthlyBudget)
+        if Customer.MonthlyBudget and (Customer.MinimalLimit < totalLineAmount) then
+            Message('Customer  %1, monthly budget of %2, is overpasse, do you like to continue?', Customer.Name, Customer.MinimalLimit)
 
     end;
 
@@ -66,7 +60,8 @@ codeunit 50105 "Food Order Line Mgtt"
         FoodOrderLine: Record "Food Order Line";
         Customer: Record "Customer";
     begin
-        if PayOrder.get(FoodOrderLineCode) = false then begin
+        PayOrder.SetFilter(FoodOrderLineCode, FoodOrderLineCode);
+        if PayOrder.FindSet() = false then begin
             PayOrder.Init();
             PayOrder.CustomerCode := CustomerCode;
             PayOrder.FoodOrderCode := FoodOrderCode;
@@ -77,7 +72,8 @@ codeunit 50105 "Food Order Line Mgtt"
             PayOrder.Insert();
         end
         else begin
-            PayOrder.Get(FoodOrderLineCode);
+            PayOrder.SetFilter(FoodOrderLineCode, FoodOrderLineCode);
+            PayOrder.FindFirst();
             PayOrder.Amount := TotalLineAmount;
             PayOrder.Modify();
         end;

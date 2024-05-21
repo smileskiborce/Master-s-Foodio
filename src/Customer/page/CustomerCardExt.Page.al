@@ -225,6 +225,11 @@ pageextension 50101 "Customer Card Ext" extends "Customer Card"
                     Caption = 'Monthly Budget';
                     ApplicationArea = All;
                 }
+                field("MinimalLimit"; Rec.MinimalLimit)
+                {
+                    Caption = 'Minimal Limit';
+                    ApplicationArea = All;
+                }
             }
 
         }

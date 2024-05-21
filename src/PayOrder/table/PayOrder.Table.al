@@ -5,6 +5,11 @@ table 50106 "Pay Order"
 
     fields
     {
+        field(1; "No."; Integer)
+        {
+            AutoIncrement = true;
+            Editable = false;
+        }
         field(2; FoodOrderCode; Code[10])
         {
             Caption = 'FoodOrderCode';
@@ -45,7 +50,7 @@ table 50106 "Pay Order"
 
     keys
     {
-        key(PK; "FoodOrderLineCode")
+        key(PK; "No.")
         {
             Clustered = true;
         }

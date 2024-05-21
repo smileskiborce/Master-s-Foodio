@@ -69,5 +69,5 @@ page 50106 "Food Order List"
 
     var
         StyleExprTxt: Text[50];
-        ChangeColor: Codeunit "Change Color Satus";
+        ChangeColor: Codeunit "Food Order";
 }

@@ -71,7 +71,7 @@ report 50100 "CustomerExpensesPerRestaurant"
             Type = RDLC;
             Caption = 'LayoutRDL';
             Summary = 'Item Ledger Entry Analysis RDL Report';
-            LayoutFile = 'src/Restaurant/layout/CustomerExpensesPerRestaurant.report.rdl';
+            LayoutFile = 'src/Customer/layout/CustomerExpensesPerRestaurant.report.rdl';
         }
     }
 }
