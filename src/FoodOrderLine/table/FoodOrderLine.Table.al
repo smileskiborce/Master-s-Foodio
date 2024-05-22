@@ -168,9 +168,14 @@ table 50104 "Food Order Line"
     trigger OnDelete()
     var
         PayOrder: Record "Pay Order";
+        FoodOrder: Record "Food Order";
     begin
         PayOrder.SetFilter(FoodOrderLineCode, Rec."No.");
         PayOrder.DeleteAll();
+
+        FoodOrder.Get(Rec.FoodOrderCode);
+        FoodOrder.TotalAmount -= Rec.TotalLineAmount;
+        FoodOrder.Modify();
     end;
 
 }
