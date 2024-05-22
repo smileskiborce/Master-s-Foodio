@@ -63,7 +63,10 @@ table 50100 "Restaurant"
         if "No." = '' then begin
             SalesSetup.Get();
             SalesSetup.TestField("Restaurant Nos.");
-            NoSeriesMgt.InitSeries(SalesSetup."Restaurant Nos.", xRec."No. Series", 0D, "No.", "No. Series");
+            "No. Series" := SalesSetup."Restaurant Nos.";
+            if NoSeriesMgt.AreRelated(SalesSetup."Restaurant Nos.", xRec."No. Series") then
+                "No. Series" := xRec."No. Series";
+            "No." := NoSeriesMgt.GetNextNo("No. Series");
         end;
     end;
 
@@ -96,5 +99,5 @@ table 50100 "Restaurant"
 
     var
         SalesSetup: Record "Sales & Receivables Setup";
-        NoSeriesMgt: Codeunit NoSeriesManagement;
+        NoSeriesMgt: Codeunit "No. Series";
 }

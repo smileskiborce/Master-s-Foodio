@@ -1,3 +1,6 @@
+/// <summary>
+/// Codeunit RestaurantTreeFucntions (ID 50103).
+/// </summary>
 codeunit 50103 RestaurantTreeFucntions
 {
     procedure CreateMealEntries(var restraurantTree: Record "Restaurant Tree")

@@ -1,3 +1,6 @@
+/// <summary>
+/// Page Food Order Line Card (ID 50109).
+/// </summary>
 page 50109 "Food Order Line Card"
 {
     ApplicationArea = All;

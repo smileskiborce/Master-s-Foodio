@@ -1,3 +1,6 @@
+/// <summary>
+/// Table Restaurant Meal (ID 50102).
+/// </summary>
 table 50102 "Restaurant Meal"
 {
     Caption = 'Restaurant Meal';
@@ -75,11 +78,14 @@ table 50102 "Restaurant Meal"
         if "No." = '' then begin
             SalesSetup.Get();
             SalesSetup.TestField("Restaurant Meal Nos.");
-            NoSeriesMgt.InitSeries(SalesSetup."Restaurant Meal Nos.", xRec."No. Series", 0D, "No.", "No. Series");
+            "No. Series" := SalesSetup."Restaurant Meal Nos.";
+            if NoSeriesMgt.AreRelated(SalesSetup."Restaurant Meal Nos.", xRec."No. Series") then
+                "No. Series" := xRec."No. Series";
+            "No." := NoSeriesMgt.GetNextNo("No. Series")
         end;
     end;
 
     var
         SalesSetup: Record "Sales & Receivables Setup";
-        NoSeriesMgt: Codeunit NoSeriesManagement;
+        NoSeriesMgt: Codeunit "No. Series";
 }

@@ -1,7 +1,16 @@
+/// <summary>
+/// Codeunit Food Order Line Mgtt (ID 50105).
+/// </summary>
 codeunit 50105 "Food Order Line Mgtt"
 {
     TableNo = "Food Order Line";
 
+    /// <summary>
+    /// addToTotal.
+    /// </summary>
+    /// <param name="FoodOrder">VAR Record "Food Order".</param>
+    /// <param name="FoodOrderLine">VAR Record "Food Order Line".</param>
+    /// <returns>Return variable totalAmount of type Decimal.</returns>
     procedure addToTotal(var FoodOrder: Record "Food Order"; var FoodOrderLine: Record "Food Order Line") totalAmount: Decimal
     var
         FoodOrderLines: Record "Food Order Line";
@@ -14,6 +23,11 @@ codeunit 50105 "Food Order Line Mgtt"
 
 
 
+    /// <summary>
+    /// checkIfOverpassMonthyLimit.
+    /// </summary>
+    /// <param name="totalLineAmount">VAR Decimal.</param>
+    /// <param name="CustomerCode">VAR Code[20].</param>
     procedure checkIfOverpassMonthyLimit(var totalLineAmount: Decimal; var CustomerCode: Code[20])
     var
         Customer: Record Customer;
@@ -27,6 +41,13 @@ codeunit 50105 "Food Order Line Mgtt"
 
 
 
+    /// <summary>
+    /// checkDiscount.
+    /// </summary>
+    /// <param name="CustomerCode">Code[20].</param>
+    /// <param name="FoodOrderLineCode">Code[20].</param>
+    /// <param name="FoodOderNo">Code[10].</param>
+    /// <returns>Return variable discount of type Integer.</returns>
     procedure checkDiscount(CustomerCode: Code[20]; FoodOrderLineCode: Code[20]; FoodOderNo: Code[10]) discount: Integer;
     var
         FoodOrderLine: Record "Food Order Line";
@@ -54,6 +75,13 @@ codeunit 50105 "Food Order Line Mgtt"
     end;
 
 
+    /// <summary>
+    /// setOrderToPay.
+    /// </summary>
+    /// <param name="FoodOrderCode">Code[20].</param>
+    /// <param name="FoodOrderLineCode">Code[20].</param>
+    /// <param name="CustomerCode">Code[20].</param>
+    /// <param name="TotalLineAmount">Decimal.</param>
     procedure setOrderToPay(FoodOrderCode: Code[20]; FoodOrderLineCode: Code[20]; CustomerCode: Code[20]; TotalLineAmount: Decimal)
     var
         PayOrder: Record "Pay Order";

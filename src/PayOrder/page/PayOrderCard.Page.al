@@ -1,3 +1,6 @@
+/// <summary>
+/// Page Pay Order Card (ID 50113).
+/// </summary>
 page 50113 "Pay Order Card"
 {
     ApplicationArea = All;

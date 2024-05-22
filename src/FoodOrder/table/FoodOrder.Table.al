@@ -131,7 +131,10 @@ table 50103 "Food Order"
         if "No." = '' then begin
             SalesSetup.Get();
             SalesSetup.TestField("Food Order Nos.");
-            NoSeriesMgt.InitSeries(SalesSetup."Food Order Nos.", xRec."No. Series", 0D, "No.", "No. Series");
+            "No. Series" := SalesSetup."Food Order Nos.";
+            if NoSeriesMgt.AreRelated(SalesSetup."Food Order Nos.", xRec."No. Series") then
+                "No. Series" := xRec."No. Series";
+            "No." := NoSeriesMgt.GetNextNo("No. Series")
         end;
     end;
 
@@ -150,7 +153,7 @@ table 50103 "Food Order"
 
     var
         SalesSetup: Record "Sales & Receivables Setup";
-        NoSeriesMgt: Codeunit NoSeriesManagement;
+        NoSeriesMgt: Codeunit "No. Series";
         FoodOrderLineMgt: Codeunit "Food Order Line Mgtt";
         FoodOrderMgt: Codeunit "Food Order";
 

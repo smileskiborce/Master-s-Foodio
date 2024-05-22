@@ -1,3 +1,6 @@
+/// <summary>
+/// Page Food Order List (ID 50106).
+/// </summary>
 page 50106 "Food Order List"
 {
     ApplicationArea = All;

@@ -1,3 +1,6 @@
+/// <summary>
+/// Table Food Order Line (ID 50104).
+/// </summary>
 table 50104 "Food Order Line"
 {
     Caption = 'Линија за нарачка на храна';
@@ -149,13 +152,16 @@ table 50104 "Food Order Line"
         if "No." = '' then begin
             SalesSetup.Get();
             SalesSetup.TestField("Food Order Line Nos.");
-            NoSeriesMgt.InitSeries(SalesSetup."Food Order Line Nos.", xRec."No. Series", 0D, "No.", "No. Series");
+            "No. Series" := SalesSetup."Food Order Line Nos.";
+            if NoSeriesMgt.AreRelated(SalesSetup."Food Order Line Nos.", xRec."No. Series") then
+                "No. Series" := xRec."No. Series";
+            "No." := NoSeriesMgt.GetNextNo("No. Series")
         end;
     end;
 
     var
         SalesSetup: Record "Sales & Receivables Setup";
-        NoSeriesMgt: Codeunit NoSeriesManagement;
+        NoSeriesMgt: Codeunit "No. Series";
         FoodOrderLineMgt: Codeunit "Food Order Line Mgtt";
         FoodOrderMgt: Codeunit "Food Order";
 

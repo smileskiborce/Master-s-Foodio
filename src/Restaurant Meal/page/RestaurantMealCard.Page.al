@@ -1,3 +1,6 @@
+/// <summary>
+/// Page Restaurant Meal Card (ID 50105).
+/// </summary>
 page 50105 "Restaurant Meal Card"
 {
     ApplicationArea = All;

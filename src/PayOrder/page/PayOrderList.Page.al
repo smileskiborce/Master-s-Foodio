@@ -1,3 +1,6 @@
+/// <summary>
+/// Page Pay Order List (ID 50112).
+/// </summary>
 page 50112 "Pay Order List"
 {
     ApplicationArea = All;

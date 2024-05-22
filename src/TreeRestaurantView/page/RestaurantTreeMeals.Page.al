@@ -1,3 +1,6 @@
+/// <summary>
+/// Page Restaurant Tree Meals (ID 50110).
+/// </summary>
 page 50110 "Restaurant Tree Meals"
 {
     Caption = 'Restaurant Tree Meals';

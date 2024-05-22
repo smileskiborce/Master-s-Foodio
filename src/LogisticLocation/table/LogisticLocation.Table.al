@@ -1,3 +1,6 @@
+/// <summary>
+/// Table Logistic Location (ID 50101).
+/// </summary>
 table 50101 "Logistic Location"
 {
     Caption = 'LogisticLocation';
@@ -44,11 +47,14 @@ table 50101 "Logistic Location"
         if "No." = '' then begin
             SalesSetup.Get();
             SalesSetup.TestField("Logistic Location Nos.");
-            NoSeriesMgt.InitSeries(SalesSetup."Logistic Location Nos.", xRec."No. Series", 0D, "No.", "No. Series");
+            "No. Series" := SalesSetup."Logistic Location Nos.";
+            if NoSeriesMgt.AreRelated(SalesSetup."Logistic Location Nos.", xRec."No. Series") then
+                "No. Series" := xRec."No. Series";
+            "No." := NoSeriesMgt.GetNextNo("No. Series")
         end;
     end;
 
     var
         SalesSetup: Record "Sales & Receivables Setup";
-        NoSeriesMgt: Codeunit NoSeriesManagement;
+        NoSeriesMgt: Codeunit "No. Series";
 }
