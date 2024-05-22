@@ -65,11 +65,17 @@ page 50107 "Food Order Card"
                 {
                     ToolTip = 'Specifies the value of the Status field.';
                     StyleExpr = StyleExprTxt;
+                    Style = Strong;
                 }
                 field(TotalAmount; Rec.TotalAmount)
                 {
                     ToolTip = 'Specifies the value of the TotalAmount field.';
                 }
+            }
+            part(FoodOrderLines; "Food Order Line Subform")
+            {
+                SubPageLink = FoodOrderCode = field("No.");
+                ApplicationArea = All;
             }
         }
     }

@@ -1,3 +1,6 @@
+/// <summary>
+/// Table Food Order (ID 50103).
+/// </summary>
 table 50103 "Food Order"
 {
     Caption = 'Food Order';
@@ -10,6 +13,7 @@ table 50103 "Food Order"
             Caption = 'No.';
             Editable = false;
             trigger OnValidate()
+
             begin
                 if "No." <> xRec."No." then begin
                     SalesSetup.Get();
@@ -21,6 +25,7 @@ table 50103 "Food Order"
         field(2; OrderingDate; DateTime)
         {
             Caption = 'Ordering Date';
+            Editable = false;
         }
         field(3; RestaurantId; Code[10])
         {
@@ -77,6 +82,10 @@ table 50103 "Food Order"
         field(10; DeliveryAddress; Text[100])
         {
             Caption = 'Delivery Address';
+            trigger OnValidate()
+            begin
+                OrderingDate := System.CurrentDateTime();
+            end;
         }
         field(11; UserId; Text[100])
         {

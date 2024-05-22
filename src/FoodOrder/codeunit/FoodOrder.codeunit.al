@@ -1,22 +1,33 @@
+/// <summary>
+/// Codeunit Food Order (ID 50102).
+/// </summary>
 codeunit 50102 "Food Order"
 {
+    /// <summary>
+    /// ChangeStatusColor.
+    /// </summary>
+    /// <param name="FoodOrder">Record "Food Order".</param>
+    /// <returns>Return value of type Text[50].</returns>
     procedure ChangeStatusColor(FoodOrder: Record "Food Order"): Text[50]
-    var
-        myInt: Integer;
-
     begin
-        with FoodOrder do
-            case Status of
-                Status::Open:
-                    exit('StrongAccent');
-                Status::"In progress":
-                    exit('StandardAccent');
-                Status::Finished:
-                    exit('favorable')
-            end;
+        case FoodOrder.Status of
+            FoodOrder.Status::Open:
+                exit('StrongAccent');
+            FoodOrder.Status::"In progress":
+                exit('StandardAccent');
+            FoodOrder.Status::Finished:
+                exit('favorable');
+            else
+                exit('UnknownStatus'); // Optional: handle unexpected statuses
+        end;
     end;
 
 
+    /// <summary>
+    /// addExpensesToTotal.
+    /// </summary>
+    /// <param name="FoodOrder">Record "Food Order".</param>
+    /// <returns>Return value of type Decimal.</returns>
     procedure addExpensesToTotal(FoodOrder: Record "Food Order"): Decimal
     var
         FoodOrderLine: Record "Food Order Line";
@@ -41,6 +52,10 @@ codeunit 50102 "Food Order"
 
 
 
+    /// <summary>
+    /// addExpensesAmountToPay.
+    /// </summary>
+    /// <param name="FoodOrder">Record "Food Order".</param>
     procedure addExpensesAmountToPay(FoodOrder: Record "Food Order")
     var
         PayOrder: Record "Pay Order";

@@ -108,11 +108,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Food Order Line - Field FoodOrderCode - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 125704046 - Field 3212133970 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Is paid</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order Line - Field IsPaid - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Table 125704046 - Field 4024017828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>MealId</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -137,11 +132,6 @@
           <source>No. Series</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Food Order Line - Field No. Series - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 125704046 - Field 441813308 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Paid Amount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Food Order Line - Field PaidAmount - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 125704046 - Field 1795468512 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Quantity</source>
@@ -488,11 +478,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Card - Control No. - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3677859530 - Control 441813308 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the PaidAmount field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Card - Control PaidAmount - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 3677859530 - Control 1795468512 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Qty field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -528,11 +513,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line List - Control FoodOrderCode - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3083958828 - Control 3212133970 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the IsPaid field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line List - Control IsPaid - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 3083958828 - Control 1338249438 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the MealName field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -548,11 +528,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line List - Control No. - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3083958828 - Control 441813308 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the PaidAmount field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line List - Control PaidAmount - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 3083958828 - Control 1795468512 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Qty field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -562,6 +537,56 @@
           <source>Specifies the value of the TotalLineAmount field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line List - Control TotalLineAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4076250484 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Food Order Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Subform - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4076250484 - Control 1881986821 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the CustomerCode field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Subform - Control CustomerName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4076250484 - Control 3417937915 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the DiscountAmount field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Subform - Control DiscountAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4076250484 - Control 2846531766 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the FoodLineNum field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Subform - Control FoodLineNum - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4076250484 - Control 325644107 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the FoodOrderId field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Subform - Control FoodOrderCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4076250484 - Control 1338249438 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the MealName field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Subform - Control MealName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4076250484 - Control 3096737700 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the MealPrice field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Subform - Control MealPrice - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4076250484 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Food Order Line code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Subform - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4076250484 - Control 1795468512 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Qty field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Subform - Control Qty - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4076250484 - Control 1759491820 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the TotalLineAmount field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Food Order Line Subform - Control TotalLineAmount - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3873563226 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Food Order list</source>
@@ -943,81 +968,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report CustomerExpensesPerRestaurant - ReportLayout LayoutRDL - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 3168444338 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Адреса</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Address - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 2731911828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Адреса и контакт</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Address &amp; Contact - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 2306852000 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Адреса 2</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Address 2 - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 2784646184 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Детали за адреса</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change AddressDetails - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 25700210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Биланс</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Balance - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 2178647059 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Салдо (LCY)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Balance (LCY) - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 230205143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Преостанато салдо</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Balance Due (LCY) - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 1219049572 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Салдо (LCY) Како продавач</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change BalanceAsVendor - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 2726785886 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Основен календарски код</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Base Calendar Code - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 3543129988 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Блокиран</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Blocked - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 474657049 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Користење на кредитен лимит</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change CalcCreditLimitLCYExpendedPct - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 714791889 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Град</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change City - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 4231739422 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Комбинирани пратки</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Combine Shipments - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 2593889414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Детали за контактирање</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change ContactDetails - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 4144518489 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Контакт Име</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change ContactName - Property Caption</note>
-        </trans-unit>
         <trans-unit id="PageExtension 3086352627 - Control 4209475936 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>Master Foodio</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1032,191 +982,6 @@
           <source>Monthly Budget</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Control MonthlyBudget - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 2063456215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Копирај Продажба на Адреса. до Qte Од</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Copy Sell-to Addr. to Qte From - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 284764054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Код на земја/регион</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Country/Region Code - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 499448942 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Округ</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change County - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 3246865201 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Кредитен лимит (LCY)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Credit Limit (LCY) - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 3522968116 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Кредитен лимит</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change CreditLimit - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 410940989 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Група за објавување клиенти</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Customer Posting Group - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 2725149570 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Група за цени на клиенти</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Customer Price Group - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 3603371397 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Прилагоден календар</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Customized Calendar - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 3180412077 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Трошоци (LCY)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change CustSalesLCY - CustProfit - AdjmtCostLCY - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 1541011875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Е-пошта</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change E-Mail - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 3217411102 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Број на EORI</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change EORI Number - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 633819257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Генералниот автобус. Група за објавување</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Gen. Bus. Posting Group - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Општо</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change General - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 2909674232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Почетна страница</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Home Page - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 1450094168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Фактурирање</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Invoicing - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Код на локација</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Location Code - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 1927147471 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Мобилен телефон бр.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change MobilePhoneNo - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Име</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Name - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Бр.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 966740350 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Код на услови за плаќање</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Payment Terms Code - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 1004196339 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Плаќања</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Payments - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 3986423421 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Телефонски број.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Phone No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 3660300303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Поштенски код</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Post Code - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 622982646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Детали за објавување</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change PostingDetails - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 303512405 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Цени и попусти</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change PricesandDiscounts - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 825293260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Резервирано</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Reserve - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 3803959643 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Продажба оваа година</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Sales This Year - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 993414011 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Код од брод до</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Ship-to Code - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 3470333905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Начин на испорака</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Shipment Method - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 2205104606 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Код</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Shipment Method Code - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 3097346278 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Испорака</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Shipping - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 3744117490 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Совети за испорака</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Shipping Advice - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 84074407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Статистика</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Statistics - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 613516469 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Вкупно должни пари</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change TotalMoneyOwed - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 419845748 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Вкупна продажба - Фискална година</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change TotalSales2 - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 3838013656 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Користете GLN во електронски документи</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change Use GLN in Electronic Document - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3086352627 - Change 617267791 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Регистрација за ДДВ бр.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Change VAT Registration No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 58105211 - Action 2262611772 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
           <source>Customer expenses per restaurant</source>

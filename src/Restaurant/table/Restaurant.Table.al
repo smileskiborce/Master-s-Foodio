@@ -1,3 +1,6 @@
+/// <summary>
+/// Table Restaurant (ID 50100).
+/// </summary>
 table 50100 "Restaurant"
 {
     Caption = 'Restaurant list';
@@ -54,6 +57,8 @@ table 50100 "Restaurant"
 
     trigger OnInsert()
     var
+        IsHandled: Boolean;
+
     begin
         if "No." = '' then begin
             SalesSetup.Get();

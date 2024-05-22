@@ -62,11 +62,6 @@ page 50109 "Food Order Line Card"
                 {
                     ToolTip = 'Specifies the value of the TotalLineAmount field.';
                 }
-                field(PaidAmount; Rec.PaidAmount)
-                {
-                    ToolTip = 'Specifies the value of the PaidAmount field.';
-                }
-
             }
         }
     }

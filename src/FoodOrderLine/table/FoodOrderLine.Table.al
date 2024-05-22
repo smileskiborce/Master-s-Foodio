@@ -102,15 +102,6 @@ table 50104 "Food Order Line"
             Editable = false;
             Caption = 'Total Line Amount';
         }
-        field(11; PaidAmount; Decimal)
-        {
-            Caption = 'Paid Amount';
-        }
-        field(12; IsPaid; Boolean)
-        {
-            Caption = 'Is paid';
-            Editable = false;
-        }
         field(13; CustomerCode; Code[20])
         {
             Caption = 'CustomerCode';

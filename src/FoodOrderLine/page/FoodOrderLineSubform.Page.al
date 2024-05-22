@@ -1,11 +1,9 @@
-page 50108 "Food Order Line List"
+page 50114 "Food Order Line Subform"
 {
     ApplicationArea = All;
-    Caption = 'Food Order Line List';
-    PageType = List;
+    Caption = 'Food Order Lines';
+    PageType = ListPart;
     SourceTable = "Food Order Line";
-    UsageCategory = Lists;
-    CardPageId = "Food Order Line Card";
 
     layout
     {
